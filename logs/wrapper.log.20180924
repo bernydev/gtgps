@@ -1,0 +1,739 @@
+WARNING|wrapper|Service traccar|18-09-24 12:29:12|YAJSW: yajsw-stable-12.12
+WARNING|wrapper|Service traccar|18-09-24 12:29:12|OS   : Linux/4.4.0-134-generic/amd64
+WARNING|wrapper|Service traccar|18-09-24 12:29:12|JVM  : Oracle Corporation/1.8.0_181//usr/lib/jvm/java-8-openjdk-amd64/jre/64
+INFO|wrapper|Service traccar|18-09-24 12:29:13|exec:java -classpath /opt/traccar/wrapperApp.jar:/opt/traccar/tracker-server.jar:/opt/traccar/lib/log4j-1.2.17.jar:/opt/traccar/lib/joda-time-2.10.jar:/opt/traccar/lib/commons-codec-1.11.jar:/opt/traccar/lib/h2-1.4.197.jar:/opt/traccar/lib/mysql-connector-java-5.1.46.jar:/opt/traccar/lib/postgresql-42.2.4.jre7.jar:/opt/traccar/lib/mssql-jdbc-6.4.0.jre7.jar:/opt/traccar/lib/HikariCP-java7-2.4.13.jar:/opt/traccar/lib/slf4j-api-1.7.21.jar:/opt/traccar/lib/netty-all-4.1.28.Final.jar:/opt/traccar/lib/slf4j-simple-1.7.25.jar:/opt/traccar/lib/javax.json-1.0.4.jar:/opt/traccar/lib/jetty-server-9.2.24.v20180105.jar:/opt/traccar/lib/javax.servlet-api-3.1.0.jar:/opt/traccar/lib/jetty-http-9.2.24.v20180105.jar:/opt/traccar/lib/jetty-io-9.2.24.v20180105.jar:/opt/traccar/lib/jetty-servlet-9.2.24.v20180105.jar:/opt/traccar/lib/jetty-security-9.2.24.v20180105.jar:/opt/traccar/lib/jetty-webapp-9.2.24.v20180105.jar:/opt/traccar/lib/jetty-xml-9.2.24.v20180105.jar:/opt/traccar/lib/jetty-jndi-9.2.24.v20180105.jar:/opt/traccar/lib/jetty-util-9.2.24.v20180105.jar:/opt/traccar/lib/jetty-proxy-9.2.24.v20180105.jar:/opt/traccar/lib/jetty-client-9.2.24.v20180105.jar:/opt/traccar/lib/websocket-server-9.2.24.v20180105.jar:/opt/traccar/lib/websocket-common-9.2.24.v20180105.jar:/opt/traccar/lib/websocket-api-9.2.24.v20180105.jar:/opt/traccar/lib/websocket-client-9.2.24.v20180105.jar:/opt/traccar/lib/websocket-servlet-9.2.24.v20180105.jar:/opt/traccar/lib/jersey-container-servlet-2.25.1.jar:/opt/traccar/lib/jersey-container-servlet-core-2.25.1.jar:/opt/traccar/lib/javax.inject-2.5.0-b32.jar:/opt/traccar/lib/jersey-common-2.25.1.jar:/opt/traccar/lib/javax.annotation-api-1.2.jar:/opt/traccar/lib/jersey-guava-2.25.1.jar:/opt/traccar/lib/hk2-api-2.5.0-b32.jar:/opt/traccar/lib/hk2-utils-2.5.0-b32.jar:/opt/traccar/lib/aopalliance-repackaged-2.5.0-b32.jar:/opt/traccar/lib/hk2-locator-2.5.0-b32.jar:/opt/traccar/lib/javassist-3.20.0-GA.jar:/opt/traccar/lib/osgi-resource-locator-1.0.1.jar:/opt/traccar/lib/jersey-server-2.25.1.jar:/opt/traccar/lib/jersey-client-2.25.1.jar:/opt/traccar/lib/jersey-media-jaxb-2.25.1.jar:/opt/traccar/lib/validation-api-1.1.0.Final.jar:/opt/traccar/lib/javax.ws.rs-api-2.0.1.jar:/opt/traccar/lib/jersey-media-json-jackson-2.25.1.jar:/opt/traccar/lib/jersey-entity-filtering-2.25.1.jar:/opt/traccar/lib/jackson-jaxrs-base-2.8.4.jar:/opt/traccar/lib/jackson-jaxrs-json-provider-2.8.4.jar:/opt/traccar/lib/jackson-module-jaxb-annotations-2.8.4.jar:/opt/traccar/lib/jackson-annotations-2.8.4.jar:/opt/traccar/lib/jackson-datatype-jsr353-2.8.4.jar:/opt/traccar/lib/jackson-core-2.8.4.jar:/opt/traccar/lib/jackson-databind-2.8.4.jar:/opt/traccar/lib/javax.json-api-1.0.jar:/opt/traccar/lib/liquibase-core-3.6.2.jar:/opt/traccar/lib/snakeyaml-1.18.jar:/opt/traccar/lib/logback-classic-1.2.3.jar:/opt/traccar/lib/mail-1.4.7.jar:/opt/traccar/lib/activation-1.1.jar:/opt/traccar/lib/jxls-2.4.6.jar:/opt/traccar/lib/commons-jexl-2.1.1.jar:/opt/traccar/lib/commons-beanutils-1.9.2.jar:/opt/traccar/lib/jcl-over-slf4j-1.7.12.jar:/opt/traccar/lib/logback-core-1.1.3.jar:/opt/traccar/lib/jxls-poi-1.0.15.jar:/opt/traccar/lib/poi-3.17.jar:/opt/traccar/lib/poi-ooxml-3.17.jar:/opt/traccar/lib/poi-ooxml-schemas-3.17.jar:/opt/traccar/lib/xmlbeans-2.6.0.jar:/opt/traccar/lib/stax-api-1.0.1.jar:/opt/traccar/lib/curvesapi-1.04.jar:/opt/traccar/lib/velocity-1.7.jar:/opt/traccar/lib/commons-collections-3.2.1.jar:/opt/traccar/lib/commons-lang-2.4.jar:/opt/traccar/lib/velocity-tools-2.0.jar:/opt/traccar/lib/commons-digester-1.8.jar:/opt/traccar/lib/commons-chain-1.1.jar:/opt/traccar/lib/commons-logging-1.1.jar:/opt/traccar/lib/servlet-api-2.3.jar:/opt/traccar/lib/commons-validator-1.3.1.jar:/opt/traccar/lib/dom4j-1.1.jar:/opt/traccar/lib/oro-2.0.8.jar:/opt/traccar/lib/sslext-1.2-0.jar:/opt/traccar/lib/struts-core-1.3.8.jar:/opt/traccar/lib/antlr-2.7.2.jar:/opt/traccar/lib/struts-taglib-1.3.8.jar:/opt/traccar/lib/struts-tiles-1.3.8.jar:/opt/traccar/lib/commons-collections4-4.2.jar:/opt/traccar/lib/ical4j-2.0.5.jar:/opt/traccar/lib/commons-lang3-3.6.jar:/opt/traccar/lib/threetenbp-1.3.6.jar:/opt/traccar/lib/ch-smpp-6.0.0-netty4-beta-3.jar:/opt/traccar/lib/ch-commons-util-6.0.2.jar:/opt/traccar/lib/ch-commons-charset-3.0.2.jar -Dfile.encoding=UTF-8 -Xrs -Dwrapper.service=true -Dwrapper.console.visible=false -Dwrapper.port=15003 -Dwrapper.key=5986028086437660013 -Dwrapper.teeName=5986028086437660013$1537792152676 -Dwrapper.tmp.path=/opt/traccar/tmp -Djna_tmpdir=/opt/traccar/tmp -Dwrapper.config=/opt/traccar/conf/wrapper.conf -Dwrapper.visible=false -Dwrapper.pidfile=/run/wrapper.traccar.pid org.rzo.yajsw.app.WrapperJVMMain 
+INFO|wrapper|Service traccar|18-09-24 12:29:13|posix_spawn pid 1470
+INFO|wrapper|Service traccar|18-09-24 12:29:13|started process 1470
+INFO|wrapper|Service traccar|18-09-24 12:29:13|started process with pid 1470
+INFO|1470/0|Service traccar|18-09-24 12:29:14|[INFO] StandardFileSystemManager - Using "/tmp/vfs_cache" as temporary files store.
+INFO|1470/0|Service traccar|18-09-24 12:29:16|SLF4J: Class path contains multiple SLF4J bindings.
+INFO|1470/0|Service traccar|18-09-24 12:29:16|SLF4J: Found binding in [jar:file:/opt/traccar/lib/slf4j-simple-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+INFO|1470/0|Service traccar|18-09-24 12:29:16|SLF4J: Found binding in [jar:file:/opt/traccar/lib/logback-classic-1.2.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+INFO|1470/0|Service traccar|18-09-24 12:29:16|SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+INFO|1470/0|Service traccar|18-09-24 12:29:16|SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+INFO|1470/0|Service traccar|18-09-24 12:29:16|[main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+INFO|1470/0|Service traccar|18-09-24 12:29:16|[main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+INFO|1470/0|Service traccar|18-09-24 12:29:16|[main] INFO liquibase.Liquibase - Clearing database change log checksums
+INFO|1470/0|Service traccar|18-09-24 12:29:16|[main] INFO liquibase.executor.jvm.JdbcExecutor - SELECT COUNT(*) FROM PUBLIC.DATABASECHANGELOGLOCK
+INFO|1470/0|Service traccar|18-09-24 12:29:17|[main] INFO liquibase.executor.jvm.JdbcExecutor - CREATE TABLE PUBLIC.DATABASECHANGELOGLOCK (ID INT NOT NULL, LOCKED BOOLEAN NOT NULL, LOCKGRANTED TIMESTAMP, LOCKEDBY VARCHAR(255), CONSTRAINT PK_DATABASECHANGELOGLOCK PRIMARY KEY (ID))
+INFO|1470/0|Service traccar|18-09-24 12:29:17|[main] INFO liquibase.executor.jvm.JdbcExecutor - SELECT COUNT(*) FROM PUBLIC.DATABASECHANGELOGLOCK
+INFO|1470/0|Service traccar|18-09-24 12:29:17|[main] INFO liquibase.executor.jvm.JdbcExecutor - DELETE FROM PUBLIC.DATABASECHANGELOGLOCK
+INFO|1470/0|Service traccar|18-09-24 12:29:17|[main] INFO liquibase.executor.jvm.JdbcExecutor - INSERT INTO PUBLIC.DATABASECHANGELOGLOCK (ID, LOCKED) VALUES (1, FALSE)
+INFO|1470/0|Service traccar|18-09-24 12:29:17|[main] INFO liquibase.executor.jvm.JdbcExecutor - SELECT LOCKED FROM PUBLIC.DATABASECHANGELOGLOCK WHERE ID=1
+INFO|1470/0|Service traccar|18-09-24 12:29:17|[main] INFO liquibase.lockservice.StandardLockService - Successfully acquired change log lock
+INFO|1470/0|Service traccar|18-09-24 12:29:17|[main] INFO liquibase.changelog.StandardChangeLogHistoryService - Creating database history table with name: PUBLIC.DATABASECHANGELOG
+INFO|1470/0|Service traccar|18-09-24 12:29:17|[main] INFO liquibase.executor.jvm.JdbcExecutor - CREATE TABLE PUBLIC.DATABASECHANGELOG (ID VARCHAR(255) NOT NULL, AUTHOR VARCHAR(255) NOT NULL, FILENAME VARCHAR(255) NOT NULL, DATEEXECUTED TIMESTAMP NOT NULL, ORDEREXECUTED INT NOT NULL, EXECTYPE VARCHAR(10) NOT NULL, MD5SUM VARCHAR(35), DESCRIPTION VARCHAR(255), COMMENTS VARCHAR(255), TAG VARCHAR(255), LIQUIBASE VARCHAR(20), CONTEXTS VARCHAR(255), LABELS VARCHAR(255), DEPLOYMENT_ID VARCHAR(10))
+INFO|1470/0|Service traccar|18-09-24 12:29:17|[main] INFO liquibase.executor.jvm.JdbcExecutor - SELECT COUNT(*) FROM PUBLIC.DATABASECHANGELOGLOCK
+INFO|1470/0|Service traccar|18-09-24 12:29:17|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = NULL
+INFO|1470/0|Service traccar|18-09-24 12:29:17|[main] INFO liquibase.lockservice.StandardLockService - Successfully released change log lock
+INFO|1470/0|Service traccar|18-09-24 12:29:17|[main] INFO liquibase.executor.jvm.JdbcExecutor - SELECT COUNT(*) FROM PUBLIC.DATABASECHANGELOGLOCK
+INFO|1470/0|Service traccar|18-09-24 12:29:17|[main] INFO liquibase.executor.jvm.JdbcExecutor - SELECT COUNT(*) FROM PUBLIC.DATABASECHANGELOGLOCK
+INFO|1470/0|Service traccar|18-09-24 12:29:17|[main] INFO liquibase.executor.jvm.JdbcExecutor - SELECT LOCKED FROM PUBLIC.DATABASECHANGELOGLOCK WHERE ID=1
+INFO|1470/0|Service traccar|18-09-24 12:29:17|[main] INFO liquibase.lockservice.StandardLockService - Successfully acquired change log lock
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - SELECT MD5SUM FROM PUBLIC.DATABASECHANGELOG WHERE MD5SUM IS NOT NULL
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - SELECT COUNT(*) FROM PUBLIC.DATABASECHANGELOG
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.StandardChangeLogHistoryService - Reading from PUBLIC.DATABASECHANGELOG
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - SELECT * FROM PUBLIC.DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - CREATE TABLE PUBLIC.users (id INT AUTO_INCREMENT NOT NULL, name VARCHAR(128) NOT NULL, email VARCHAR(128) NOT NULL, hashedpassword VARCHAR(128) NOT NULL, salt VARCHAR(128) NOT NULL, readonly BOOLEAN DEFAULT FALSE NOT NULL, administrator BOOLEAN DEFAULT FALSE NOT NULL, map VARCHAR(128) DEFAULT 'osm' NOT NULL, language VARCHAR(128) DEFAULT 'en' NOT NULL, distanceunit VARCHAR(128) DEFAULT 'km' NOT NULL, speedunit VARCHAR(128) DEFAULT 'kmh' NOT NULL, latitude DOUBLE DEFAULT 0 NOT NULL, longitude DOUBLE DEFAULT 0 NOT NULL, zoom INT DEFAULT 0 NOT NULL, CONSTRAINT PK_USERS PRIMARY KEY (id))
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Table users created
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.users ADD CONSTRAINT uk_user_email UNIQUE (email)
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Unique constraint added to users(email)
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - CREATE TABLE PUBLIC.devices (id INT AUTO_INCREMENT NOT NULL, name VARCHAR(128) NOT NULL, uniqueid VARCHAR(128) NOT NULL, status VARCHAR(128), lastupdate TIMESTAMP, positionid INT, CONSTRAINT PK_DEVICES PRIMARY KEY (id))
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Table devices created
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.devices ADD CONSTRAINT uk_device_uniqueid UNIQUE (uniqueid)
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Unique constraint added to devices(uniqueid)
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - CREATE TABLE PUBLIC.user_device (userid INT NOT NULL, deviceid INT NOT NULL)
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Table user_device created
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.user_device ADD CONSTRAINT fk_user_device_userid FOREIGN KEY (userid) REFERENCES PUBLIC.users (id) ON DELETE CASCADE
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to user_device (userid)
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.user_device ADD CONSTRAINT fk_user_device_deviceid FOREIGN KEY (deviceid) REFERENCES PUBLIC.devices (id) ON DELETE CASCADE
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to user_device (deviceid)
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - CREATE INDEX PUBLIC.user_device_user_id ON PUBLIC.user_device(userid)
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Index user_device_user_id created
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - CREATE TABLE PUBLIC.positions (id INT AUTO_INCREMENT NOT NULL, protocol VARCHAR(128), deviceid INT NOT NULL, servertime TIMESTAMP NOT NULL, devicetime TIMESTAMP NOT NULL, fixtime TIMESTAMP NOT NULL, valid BOOLEAN NOT NULL, latitude DOUBLE NOT NULL, longitude DOUBLE NOT NULL, altitude FLOAT NOT NULL, speed FLOAT NOT NULL, course FLOAT NOT NULL, address VARCHAR(512), attributes VARCHAR(4096) NOT NULL, CONSTRAINT PK_POSITIONS PRIMARY KEY (id))
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Table positions created
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.positions ADD CONSTRAINT fk_position_deviceid FOREIGN KEY (deviceid) REFERENCES PUBLIC.devices (id) ON DELETE CASCADE
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to positions (deviceid)
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - CREATE INDEX PUBLIC.position_deviceid_fixtime ON PUBLIC.positions(deviceid, fixtime)
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Index position_deviceid_fixtime created
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - CREATE TABLE PUBLIC.server (id INT AUTO_INCREMENT NOT NULL, registration BOOLEAN DEFAULT TRUE NOT NULL, latitude DOUBLE DEFAULT 0 NOT NULL, longitude DOUBLE DEFAULT 0 NOT NULL, zoom INT DEFAULT 0 NOT NULL, map VARCHAR(128), language VARCHAR(128), distanceunit VARCHAR(128), speedunit VARCHAR(128), bingkey VARCHAR(128), mapurl VARCHAR(128), readonly BOOLEAN DEFAULT FALSE NOT NULL, CONSTRAINT PK_SERVER PRIMARY KEY (id))
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Table server created
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - INSERT INTO PUBLIC.server (registration, latitude, longitude, zoom) VALUES (TRUE, 0, 0, 0)
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - New row inserted into server
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - INSERT INTO PUBLIC.users (name, email, hashedpassword, salt, administrator) VALUES ('admin', 'admin', 'D33DCA55ABD4CC5BC76F2BC0B4E603FE2C6F61F4C1EF2D47', '000000000000000000000000000000000000000000000000', TRUE)
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - New row inserted into users
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - ChangeSet changelog-3.3::changelog-3.3::author ran successfully in 37ms
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - SELECT MAX(ORDEREXECUTED) FROM PUBLIC.DATABASECHANGELOG
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - INSERT INTO PUBLIC.DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, DESCRIPTION, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('changelog-3.3', 'author', 'changelog-3.3', NOW(), 1, '8:ea6f202534dc7845fd1a49e1d8384d9c', 'createTable tableName=users; addUniqueConstraint constraintName=uk_user_email, tableName=users; createTable tableName=devices; addUniqueConstraint constraintName=uk_device_uniqueid, tableName=devices; createTable tableName=user_device; addForeignK...', '', 'EXECUTED', NULL, NULL, '3.6.2', '7792158501')
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - CREATE TABLE PUBLIC.groups (id INT AUTO_INCREMENT NOT NULL, name VARCHAR(128) NOT NULL, groupid INT, CONSTRAINT PK_GROUPS PRIMARY KEY (id))
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Table groups created
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - CREATE TABLE PUBLIC.user_group (userid INT NOT NULL, groupid INT NOT NULL)
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Table user_group created
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.user_group ADD CONSTRAINT fk_user_group_userid FOREIGN KEY (userid) REFERENCES PUBLIC.users (id) ON DELETE CASCADE
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to user_group (userid)
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.user_group ADD CONSTRAINT fk_user_group_groupid FOREIGN KEY (groupid) REFERENCES PUBLIC.groups (id) ON DELETE CASCADE
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to user_group (groupid)
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.devices ADD groupid INT
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Columns groupid(INT) added to devices
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.users ALTER COLUMN language SET NULL
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Null constraint dropped from users.language
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.users ALTER COLUMN  language SET DEFAULT NULL
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Default value dropped from users.language
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.users DROP COLUMN language
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Column users.language dropped
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.server DROP COLUMN language
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Column server.language dropped
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.users ALTER COLUMN map SET NULL
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Null constraint dropped from users.map
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.users ALTER COLUMN  map SET DEFAULT NULL
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Default value dropped from users.map
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.users ALTER COLUMN distanceunit SET NULL
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Null constraint dropped from users.distanceunit
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.users ALTER COLUMN  distanceunit SET DEFAULT NULL
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Default value dropped from users.distanceunit
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.users ALTER COLUMN speedunit SET NULL
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Null constraint dropped from users.speedunit
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.users ALTER COLUMN  speedunit SET DEFAULT NULL
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Default value dropped from users.speedunit
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.users ADD twelvehourformat BOOLEAN DEFAULT FALSE NOT NULL
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Columns twelvehourformat(BOOLEAN) added to users
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.server ADD twelvehourformat BOOLEAN DEFAULT FALSE NOT NULL
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Columns twelvehourformat(BOOLEAN) added to server
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - ChangeSet changelog-3.5::changelog-3.5::author ran successfully in 60ms
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - INSERT INTO PUBLIC.DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, DESCRIPTION, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('changelog-3.5', 'author', 'changelog-3.5', NOW(), 2, '8:194e3ae7ec6d201917136e04a26e237b', 'createTable tableName=groups; createTable tableName=user_group; addForeignKeyConstraint baseTableName=user_group, constraintName=fk_user_group_userid, referencedTableName=users; addForeignKeyConstraint baseTableName=user_group, constraintName=fk_u...', '', 'EXECUTED', NULL, NULL, '3.6.2', '7792158501')
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - CREATE TABLE PUBLIC.events (id INT AUTO_INCREMENT NOT NULL, type VARCHAR(128) NOT NULL, servertime TIMESTAMP NOT NULL, deviceid INT, positionid INT, geofenceid INT, attributes VARCHAR(4096) NOT NULL, CONSTRAINT PK_EVENTS PRIMARY KEY (id))
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Table events created
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.events ADD CONSTRAINT fk_event_deviceid FOREIGN KEY (deviceid) REFERENCES PUBLIC.devices (id) ON DELETE CASCADE
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to events (deviceid)
+INFO|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.devices ADD motion VARCHAR(128)
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Columns motion(VARCHAR(128)) added to devices
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - CREATE TABLE PUBLIC.geofences (id INT AUTO_INCREMENT NOT NULL, name VARCHAR(128) NOT NULL, description VARCHAR(128), area VARCHAR(4096) NOT NULL, attributes VARCHAR(4096) NOT NULL, CONSTRAINT PK_GEOFENCES PRIMARY KEY (id))
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Table geofences created
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - CREATE TABLE PUBLIC.user_geofence (userid INT NOT NULL, geofenceid INT NOT NULL)
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Table user_geofence created
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.user_geofence ADD CONSTRAINT fk_user_geofence_userid FOREIGN KEY (userid) REFERENCES PUBLIC.users (id) ON DELETE CASCADE
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to user_geofence (userid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.user_geofence ADD CONSTRAINT fk_user_geofence_geofenceid FOREIGN KEY (geofenceid) REFERENCES PUBLIC.geofences (id) ON DELETE CASCADE
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to user_geofence (geofenceid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - CREATE TABLE PUBLIC.group_geofence (groupid INT NOT NULL, geofenceid INT NOT NULL)
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Table group_geofence created
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.group_geofence ADD CONSTRAINT fk_group_geofence_groupid FOREIGN KEY (groupid) REFERENCES PUBLIC.groups (id) ON DELETE CASCADE
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to group_geofence (groupid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.group_geofence ADD CONSTRAINT fk_group_geofence_geofenceid FOREIGN KEY (geofenceid) REFERENCES PUBLIC.geofences (id) ON DELETE CASCADE
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to group_geofence (geofenceid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - CREATE TABLE PUBLIC.device_geofence (deviceid INT NOT NULL, geofenceid INT NOT NULL)
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Table device_geofence created
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.device_geofence ADD CONSTRAINT fk_user_device_geofence_deviceid FOREIGN KEY (deviceid) REFERENCES PUBLIC.devices (id) ON DELETE CASCADE
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to device_geofence (deviceid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.device_geofence ADD CONSTRAINT fk_user_device_geofence_geofenceid FOREIGN KEY (geofenceid) REFERENCES PUBLIC.geofences (id) ON DELETE CASCADE
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to device_geofence (geofenceid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - CREATE TABLE PUBLIC.notifications (id INT AUTO_INCREMENT NOT NULL, userid INT NOT NULL, type VARCHAR(128) NOT NULL, attributes VARCHAR(4096) NOT NULL, CONSTRAINT PK_NOTIFICATIONS PRIMARY KEY (id))
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Table notifications created
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.notifications ADD CONSTRAINT fk_notifications_userid FOREIGN KEY (userid) REFERENCES PUBLIC.users (id) ON DELETE CASCADE
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to notifications (userid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.users ADD attributes VARCHAR(4096)
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Columns attributes(VARCHAR(4096)) added to users
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - ChangeSet changelog-3.6::changelog-3.6::author ran successfully in 88ms
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - INSERT INTO PUBLIC.DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, DESCRIPTION, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('changelog-3.6', 'author', 'changelog-3.6', NOW(), 3, '8:1ec7941b03749f24e365bc6126b07e1a', 'createTable tableName=events; addForeignKeyConstraint baseTableName=events, constraintName=fk_event_deviceid, referencedTableName=devices; addColumn tableName=devices; createTable tableName=geofences; createTable tableName=user_geofence; addForeig...', '', 'EXECUTED', NULL, NULL, '3.6.2', '7792158501')
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.devices SET groupid = NULL WHERE groupid NOT IN (SELECT id FROM groups)
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Data updated in devices
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.devices ADD CONSTRAINT fk_device_group_groupid FOREIGN KEY (groupid) REFERENCES PUBLIC.groups (id) ON UPDATE RESTRICT ON DELETE SET NULL
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to devices (groupid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.groups SET groupid = NULL WHERE groupid NOT IN (SELECT id FROM (SELECT DISTINCT id FROM groups) AS groups_ids)
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Data updated in groups
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.devices ADD attributes VARCHAR(4096)
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Columns attributes(VARCHAR(4096)) added to devices
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.devices DROP COLUMN motion
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Column devices.motion dropped
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.devices DROP COLUMN status
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Column devices.status dropped
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.groups ADD attributes VARCHAR(4096)
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Columns attributes(VARCHAR(4096)) added to groups
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.server ADD attributes VARCHAR(4096)
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - Columns attributes(VARCHAR(4096)) added to server
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.changelog.ChangeSet - ChangeSet changelog-3.7::changelog-3.7::author ran successfully in 54ms
+FINEST|1470/0|Service traccar|18-09-24 12:29:18|[main] INFO liquibase.executor.jvm.JdbcExecutor - INSERT INTO PUBLIC.DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, DESCRIPTION, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('changelog-3.7', 'author', 'changelog-3.7', NOW(), 4, '8:2e444e379f31d0b8e09273ec7ffe87a0', 'update tableName=devices; addForeignKeyConstraint baseTableName=devices, constraintName=fk_device_group_groupid, referencedTableName=groups; update tableName=groups; addColumn tableName=devices; dropColumn columnName=motion, tableName=devices; dro...', '', 'EXECUTED', NULL, NULL, '3.6.2', '7792158501')
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.groups ADD CONSTRAINT fk_group_group_groupid FOREIGN KEY (groupid) REFERENCES PUBLIC.groups (id) ON UPDATE RESTRICT ON DELETE SET NULL
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to groups (groupid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - ChangeSet changelog-3.7::changelog-3.7-notmssql::author ran successfully in 11ms
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - INSERT INTO PUBLIC.DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, DESCRIPTION, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('changelog-3.7-notmssql', 'author', 'changelog-3.7', NOW(), 5, '8:974c33d2fb399ef6477c3897450fb078', 'addForeignKeyConstraint baseTableName=groups, constraintName=fk_group_group_groupid, referencedTableName=groups', '', 'EXECUTED', NULL, NULL, '3.6.2', '7792158501')
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - CREATE TABLE PUBLIC.attribute_aliases (id INT AUTO_INCREMENT NOT NULL, deviceid INT NOT NULL, attribute VARCHAR(128) NOT NULL, alias VARCHAR(128) NOT NULL, CONSTRAINT PK_ATTRIBUTE_ALIASES PRIMARY KEY (id))
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table attribute_aliases created
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.attribute_aliases ADD CONSTRAINT fk_attribute_aliases_deviceid FOREIGN KEY (deviceid) REFERENCES PUBLIC.devices (id) ON DELETE CASCADE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to attribute_aliases (deviceid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.attribute_aliases ADD CONSTRAINT uk_deviceid_attribute UNIQUE (deviceid, attribute)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Unique constraint added to attribute_aliases(deviceid, attribute)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.users SET map = NULL WHERE map = 'osm'
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Data updated in users
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.users SET distanceunit = NULL WHERE distanceunit = 'km'
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Data updated in users
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.users SET speedunit = NULL WHERE speedunit = 'kmh'
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Data updated in users
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - CREATE TABLE PUBLIC.statistics (id INT AUTO_INCREMENT NOT NULL, capturetime TIMESTAMP NOT NULL, activeusers INT DEFAULT 0 NOT NULL, activedevices INT DEFAULT 0 NOT NULL, requests INT DEFAULT 0 NOT NULL, messagesreceived INT DEFAULT 0 NOT NULL, messagesstored INT DEFAULT 0 NOT NULL, attributes VARCHAR(4000) NOT NULL, CONSTRAINT PK_STATISTICS PRIMARY KEY (id))
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table statistics created
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.server ALTER COLUMN mapurl VARCHAR(512)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - server.mapurl datatype was changed to VARCHAR(512)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.server ADD forcesettings BOOLEAN DEFAULT FALSE NOT NULL
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Columns forcesettings(BOOLEAN) added to server
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.users ADD coordinateformat VARCHAR(128)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Columns coordinateformat(VARCHAR(128)) added to users
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.server ADD coordinateformat VARCHAR(128)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Columns coordinateformat(VARCHAR(128)) added to server
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.positions ALTER COLUMN attributes SET NULL
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Null constraint dropped from positions.attributes
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.positions ALTER COLUMN attributes VARCHAR(4000)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - positions.attributes datatype was changed to VARCHAR(4000)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.events ALTER COLUMN attributes SET NULL
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Null constraint dropped from events.attributes
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.events ALTER COLUMN attributes VARCHAR(4000)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - events.attributes datatype was changed to VARCHAR(4000)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.geofences ALTER COLUMN attributes SET NULL
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Null constraint dropped from geofences.attributes
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.geofences ALTER COLUMN attributes VARCHAR(4000)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - geofences.attributes datatype was changed to VARCHAR(4000)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.notifications ALTER COLUMN attributes SET NULL
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Null constraint dropped from notifications.attributes
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.notifications ALTER COLUMN attributes VARCHAR(4000)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - notifications.attributes datatype was changed to VARCHAR(4000)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.users ALTER COLUMN attributes VARCHAR(4000)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - users.attributes datatype was changed to VARCHAR(4000)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.devices ALTER COLUMN attributes VARCHAR(4000)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - devices.attributes datatype was changed to VARCHAR(4000)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.groups ALTER COLUMN attributes VARCHAR(4000)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - groups.attributes datatype was changed to VARCHAR(4000)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.server ALTER COLUMN attributes VARCHAR(4000)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - server.attributes datatype was changed to VARCHAR(4000)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.devices ADD phone VARCHAR(128)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Columns phone(VARCHAR(128)) added to devices
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.devices ADD model VARCHAR(128)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Columns model(VARCHAR(128)) added to devices
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.devices ADD contact VARCHAR(512)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Columns contact(VARCHAR(512)) added to devices
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.devices ADD category VARCHAR(128)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Columns category(VARCHAR(128)) added to devices
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.users ADD disabled BOOLEAN DEFAULT FALSE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Columns disabled(BOOLEAN) added to users
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.users ADD expirationtime TIMESTAMP
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Columns expirationtime(TIMESTAMP) added to users
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.users ADD devicelimit INT DEFAULT 0
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Columns devicelimit(INT) added to users
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.users ADD token VARCHAR(128)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Columns token(VARCHAR(128)) added to users
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - ChangeSet changelog-3.8::changelog-3.8::author ran successfully in 141ms
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - INSERT INTO PUBLIC.DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, DESCRIPTION, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('changelog-3.8', 'author', 'changelog-3.8', NOW(), 6, '8:74d68027951f8d2ae6bb2e24df8365bc', 'createTable tableName=attribute_aliases; addForeignKeyConstraint baseTableName=attribute_aliases, constraintName=fk_attribute_aliases_deviceid, referencedTableName=devices; addUniqueConstraint constraintName=uk_deviceid_attribute, tableName=attrib...', '', 'EXECUTED', NULL, NULL, '3.6.2', '7792158501')
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.notifications ADD web BOOLEAN DEFAULT FALSE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.notifications ADD mail BOOLEAN DEFAULT FALSE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Columns web(BOOLEAN),mail(BOOLEAN) added to notifications
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.notifications SET web = TRUE WHERE attributes = '{"web":"true"}'
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Data updated in notifications
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.notifications SET mail = TRUE WHERE attributes = '{"mail":"true"}'
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Data updated in notifications
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.notifications SET mail = TRUE, web = TRUE WHERE attributes = '{"web":"true","mail":"true"}'
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Data updated in notifications
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.notifications SET attributes = '{}'
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Data updated in notifications
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - ChangeSet changelog-3.9::changelog-3.9::author ran successfully in 6ms
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - INSERT INTO PUBLIC.DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, DESCRIPTION, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('changelog-3.9', 'author', 'changelog-3.9', NOW(), 7, '8:34822842d65deb843a7d16f857d52ecc', 'addColumn tableName=notifications; update tableName=notifications; update tableName=notifications; update tableName=notifications; update tableName=notifications', '', 'EXECUTED', NULL, NULL, '3.6.2', '7792158501')
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - CREATE TABLE PUBLIC.calendars (id INT AUTO_INCREMENT NOT NULL, name VARCHAR(128) NOT NULL, data BLOB NOT NULL, attributes VARCHAR(4000) NOT NULL, CONSTRAINT PK_CALENDARS PRIMARY KEY (id))
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table calendars created
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - CREATE TABLE PUBLIC.user_calendar (userid INT NOT NULL, calendarid INT NOT NULL)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table user_calendar created
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.user_calendar ADD CONSTRAINT fk_user_calendar_userid FOREIGN KEY (userid) REFERENCES PUBLIC.users (id) ON DELETE CASCADE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to user_calendar (userid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.user_calendar ADD CONSTRAINT fk_user_calendar_geofenceid FOREIGN KEY (calendarid) REFERENCES PUBLIC.calendars (id) ON DELETE CASCADE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to user_calendar (calendarid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.geofences ADD calendarid INT
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Columns calendarid(INT) added to geofences
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.geofences ADD CONSTRAINT fk_geofence_calendar_calendarid FOREIGN KEY (calendarid) REFERENCES PUBLIC.calendars (id) ON UPDATE RESTRICT ON DELETE SET NULL
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to geofences (calendarid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.positions ADD accuracy DOUBLE DEFAULT 0 NOT NULL
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.positions ADD network VARCHAR(4000)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Columns accuracy(DOUBLE),network(VARCHAR(4000)) added to positions
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.users ADD userlimit INT DEFAULT 0
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Columns userlimit(INT) added to users
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - CREATE TABLE PUBLIC.user_user (userid INT NOT NULL, manageduserid INT NOT NULL)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table user_user created
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.user_user ADD CONSTRAINT fk_user_user_userid FOREIGN KEY (userid) REFERENCES PUBLIC.users (id) ON DELETE CASCADE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to user_user (userid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.users SET devicelimit = -1 WHERE devicelimit = 0
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Data updated in users
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.users ALTER COLUMN  devicelimit SET DEFAULT NULL
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Default value dropped from users.devicelimit
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.users ALTER COLUMN  devicelimit SET DEFAULT -1
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Default value added to users.devicelimit
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.users ADD devicereadonly BOOLEAN DEFAULT FALSE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Columns devicereadonly(BOOLEAN) added to users
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - ChangeSet changelog-3.10::changelog-3.10::author ran successfully in 32ms
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - INSERT INTO PUBLIC.DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, DESCRIPTION, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('changelog-3.10', 'author', 'changelog-3.10', NOW(), 8, '8:e1ddbe83e1ecf856a912755fc118f82e', 'createTable tableName=calendars; createTable tableName=user_calendar; addForeignKeyConstraint baseTableName=user_calendar, constraintName=fk_user_calendar_userid, referencedTableName=users; addForeignKeyConstraint baseTableName=user_calendar, cons...', '', 'EXECUTED', NULL, NULL, '3.6.2', '7792158501')
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.user_user ADD CONSTRAINT fk_user_user_manageduserid FOREIGN KEY (manageduserid) REFERENCES PUBLIC.users (id) ON DELETE CASCADE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to user_user (manageduserid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - ChangeSet changelog-3.10::changelog-3.10-notmssql::author ran successfully in 1ms
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - INSERT INTO PUBLIC.DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, DESCRIPTION, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('changelog-3.10-notmssql', 'author', 'changelog-3.10', NOW(), 9, '8:191c21d8f0f921845cf93bbc9d0639b9', 'addForeignKeyConstraint baseTableName=user_user, constraintName=fk_user_user_manageduserid, referencedTableName=users', '', 'EXECUTED', NULL, NULL, '3.6.2', '7792158501')
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Marking ChangeSet: changelog-3.10::changelog-3.10-mssql::author ran despite precondition failure due to onFail='MARK_RAN': 
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|          ./schema/changelog-master.xml : DBMS Precondition failed: expected mssql, got h2
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - INSERT INTO PUBLIC.DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, DESCRIPTION, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('changelog-3.10-mssql', 'author', 'changelog-3.10', NOW(), 10, '8:ad1f63566e8d08812fbf0b93a118ef6e', 'sql', '', 'MARK_RAN', NULL, NULL, '3.6.2', '7792158501')
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Marking ChangeSet: changelog-3.10::changelog-3.7-mssql::author ran despite precondition failure due to onFail='MARK_RAN': 
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|          ./schema/changelog-master.xml : DBMS Precondition failed: expected mssql, got h2
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - INSERT INTO PUBLIC.DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, DESCRIPTION, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('changelog-3.7-mssql', 'author', 'changelog-3.10', NOW(), 11, '8:127b36b9d32a9d236df51d19b18c3766', 'sql', '', 'MARK_RAN', NULL, NULL, '3.6.2', '7792158501')
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.users ADD phone VARCHAR(128)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Columns phone(VARCHAR(128)) added to users
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.notifications ADD sms BOOLEAN DEFAULT FALSE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Columns sms(BOOLEAN) added to notifications
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.server ADD devicereadonly BOOLEAN DEFAULT FALSE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Columns devicereadonly(BOOLEAN) added to server
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.server ADD timezone VARCHAR(128)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Columns timezone(VARCHAR(128)) added to server
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.users ADD timezone VARCHAR(128)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Columns timezone(VARCHAR(128)) added to users
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - ChangeSet changelog-3.11::changelog-3.11::author ran successfully in 17ms
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - INSERT INTO PUBLIC.DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, DESCRIPTION, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('changelog-3.11', 'author', 'changelog-3.11', NOW(), 12, '8:7800f890b9706a480bd5a79b591b6ca7', 'addColumn tableName=users; addColumn tableName=notifications; addColumn tableName=server; addColumn tableName=server; addColumn tableName=users', '', 'EXECUTED', NULL, NULL, '3.6.2', '7792158501')
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.statistics ADD mailsent INT DEFAULT 0 NOT NULL
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.statistics ADD smssent INT DEFAULT 0 NOT NULL
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.statistics ADD geocoderrequests INT DEFAULT 0 NOT NULL
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.statistics ADD geolocationrequests INT DEFAULT 0 NOT NULL
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Columns mailsent(INT),smssent(INT),geocoderrequests(INT),geolocationrequests(INT) added to statistics
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - CREATE TABLE PUBLIC.attributes (id INT AUTO_INCREMENT NOT NULL, description VARCHAR(4000) NOT NULL, type VARCHAR(128) NOT NULL, attribute VARCHAR(128) NOT NULL, expression VARCHAR(4000) NOT NULL, CONSTRAINT PK_ATTRIBUTES PRIMARY KEY (id))
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table attributes created
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - CREATE TABLE PUBLIC.user_attribute (userid INT NOT NULL, attributeid INT NOT NULL)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table user_attribute created
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.user_attribute ADD CONSTRAINT fk_user_attribute_userid FOREIGN KEY (userid) REFERENCES PUBLIC.users (id) ON DELETE CASCADE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to user_attribute (userid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.user_attribute ADD CONSTRAINT fk_user_attribute_attributeid FOREIGN KEY (attributeid) REFERENCES PUBLIC.attributes (id) ON DELETE CASCADE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to user_attribute (attributeid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - CREATE TABLE PUBLIC.group_attribute (groupid INT NOT NULL, attributeid INT NOT NULL)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table group_attribute created
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.group_attribute ADD CONSTRAINT fk_group_attribute_groupid FOREIGN KEY (groupid) REFERENCES PUBLIC.groups (id) ON DELETE CASCADE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to group_attribute (groupid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.group_attribute ADD CONSTRAINT fk_group_attribute_attributeid FOREIGN KEY (attributeid) REFERENCES PUBLIC.attributes (id) ON DELETE CASCADE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to group_attribute (attributeid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - CREATE TABLE PUBLIC.device_attribute (deviceid INT NOT NULL, attributeid INT NOT NULL)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table device_attribute created
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.device_attribute ADD CONSTRAINT fk_device_attribute_deviceid FOREIGN KEY (deviceid) REFERENCES PUBLIC.devices (id) ON DELETE CASCADE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to device_attribute (deviceid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.device_attribute ADD CONSTRAINT fk_device_attribute_attributeid FOREIGN KEY (attributeid) REFERENCES PUBLIC.attributes (id) ON DELETE CASCADE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to device_attribute (attributeid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.device_geofence DROP CONSTRAINT fk_user_device_geofence_deviceid
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key fk_user_device_geofence_deviceid dropped
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.device_geofence ADD CONSTRAINT fk_device_geofence_deviceid FOREIGN KEY (deviceid) REFERENCES PUBLIC.devices (id) ON DELETE CASCADE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to device_geofence (deviceid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.device_geofence DROP CONSTRAINT fk_user_device_geofence_geofenceid
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key fk_user_device_geofence_geofenceid dropped
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.device_geofence ADD CONSTRAINT fk_device_geofence_geofenceid FOREIGN KEY (geofenceid) REFERENCES PUBLIC.geofences (id) ON DELETE CASCADE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to device_geofence (geofenceid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.devices DROP CONSTRAINT fk_device_group_groupid
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key fk_device_group_groupid dropped
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.devices ADD CONSTRAINT fk_devices_groupid FOREIGN KEY (groupid) REFERENCES PUBLIC.groups (id) ON UPDATE RESTRICT ON DELETE SET NULL
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to devices (groupid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.user_calendar DROP CONSTRAINT fk_user_calendar_geofenceid
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key fk_user_calendar_geofenceid dropped
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.user_calendar ADD CONSTRAINT fk_user_calendar_calendarid FOREIGN KEY (calendarid) REFERENCES PUBLIC.calendars (id) ON DELETE CASCADE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to user_calendar (calendarid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - ChangeSet changelog-3.12::changelog-3.12::author ran successfully in 30ms
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - INSERT INTO PUBLIC.DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, DESCRIPTION, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('changelog-3.12', 'author', 'changelog-3.12', NOW(), 13, '8:5ce520811d626ad325a014b9fcbb1a13', 'addColumn tableName=statistics; createTable tableName=attributes; createTable tableName=user_attribute; addForeignKeyConstraint baseTableName=user_attribute, constraintName=fk_user_attribute_userid, referencedTableName=users; addForeignKeyConstrai...', '', 'EXECUTED', NULL, NULL, '3.6.2', '7792158501')
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.groups DROP CONSTRAINT fk_group_group_groupid
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key fk_group_group_groupid dropped
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.groups ADD CONSTRAINT fk_groups_groupid FOREIGN KEY (groupid) REFERENCES PUBLIC.groups (id) ON UPDATE RESTRICT ON DELETE SET NULL
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to groups (groupid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - ChangeSet changelog-3.12::changelog-3.12-notmssql::author ran successfully in 2ms
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - INSERT INTO PUBLIC.DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, DESCRIPTION, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('changelog-3.12-notmssql', 'author', 'changelog-3.12', NOW(), 14, '8:a3bf7fabcde29e106fe2f89829a76a84', 'dropForeignKeyConstraint baseTableName=groups, constraintName=fk_group_group_groupid; addForeignKeyConstraint baseTableName=groups, constraintName=fk_groups_groupid, referencedTableName=groups', '', 'EXECUTED', NULL, NULL, '3.6.2', '7792158501')
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Marking ChangeSet: changelog-3.12::changelog-3.12-pgsql::author ran despite precondition failure due to onFail='MARK_RAN': 
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|          ./schema/changelog-master.xml : DBMS Precondition failed: expected postgresql, got h2
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - INSERT INTO PUBLIC.DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, DESCRIPTION, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('changelog-3.12-pgsql', 'author', 'changelog-3.12', NOW(), 15, '8:cfc881bd2dadb561aa9c1a467bc8cc1c', 'dropColumn columnName=data, tableName=calendars; addColumn tableName=calendars', '', 'MARK_RAN', NULL, NULL, '3.6.2', '7792158501')
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - CREATE TABLE PUBLIC.drivers (id INT AUTO_INCREMENT NOT NULL, name VARCHAR(128) NOT NULL, uniqueid VARCHAR(128) NOT NULL, attributes VARCHAR(4000) NOT NULL, CONSTRAINT PK_DRIVERS PRIMARY KEY (id))
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table drivers created
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.drivers ADD CONSTRAINT uk_driver_uniqueid UNIQUE (uniqueid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Unique constraint added to drivers(uniqueid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - CREATE TABLE PUBLIC.user_driver (userid INT NOT NULL, driverid INT NOT NULL)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table user_driver created
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.user_driver ADD CONSTRAINT fk_user_driver_userid FOREIGN KEY (userid) REFERENCES PUBLIC.users (id) ON DELETE CASCADE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to user_driver (userid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.user_driver ADD CONSTRAINT fk_user_driver_driverid FOREIGN KEY (driverid) REFERENCES PUBLIC.drivers (id) ON DELETE CASCADE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to user_driver (driverid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - CREATE TABLE PUBLIC.group_driver (groupid INT NOT NULL, driverid INT NOT NULL)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table group_driver created
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.group_driver ADD CONSTRAINT fk_group_driver_groupid FOREIGN KEY (groupid) REFERENCES PUBLIC.groups (id) ON DELETE CASCADE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to group_driver (groupid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.group_driver ADD CONSTRAINT fk_group_driver_driverid FOREIGN KEY (driverid) REFERENCES PUBLIC.drivers (id) ON DELETE CASCADE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to group_driver (driverid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - CREATE TABLE PUBLIC.device_driver (deviceid INT NOT NULL, driverid INT NOT NULL)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table device_driver created
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.device_driver ADD CONSTRAINT fk_device_driver_deviceid FOREIGN KEY (deviceid) REFERENCES PUBLIC.devices (id) ON DELETE CASCADE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to device_driver (deviceid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.device_driver ADD CONSTRAINT fk_device_driver_driverid FOREIGN KEY (driverid) REFERENCES PUBLIC.drivers (id) ON DELETE CASCADE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to device_driver (driverid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.server RENAME TO servers
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table server renamed to servers
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - ChangeSet changelog-3.14::changelog-3.14::author ran successfully in 14ms
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - INSERT INTO PUBLIC.DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, DESCRIPTION, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('changelog-3.14', 'author', 'changelog-3.14', NOW(), 16, '8:1be7e6c0520f8be53ef1b099d96afba5', 'createTable tableName=drivers; addUniqueConstraint constraintName=uk_driver_uniqueid, tableName=drivers; createTable tableName=user_driver; addForeignKeyConstraint baseTableName=user_driver, constraintName=fk_user_driver_userid, referencedTableNam...', '', 'EXECUTED', NULL, NULL, '3.6.2', '7792158501')
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.attribute_aliases DROP CONSTRAINT fk_attribute_aliases_deviceid
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key fk_attribute_aliases_deviceid dropped
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.attribute_aliases DROP CONSTRAINT uk_deviceid_attribute
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Unique constraint uk_deviceid_attribute dropped from attribute_aliases
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - DROP TABLE PUBLIC.attribute_aliases
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table attribute_aliases dropped
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.servers DROP COLUMN timezone
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Column servers.timezone dropped
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.servers DROP COLUMN speedunit
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Column servers.speedunit dropped
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.servers DROP COLUMN distanceunit
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Column servers.distanceunit dropped
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.users DROP COLUMN timezone
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Column users.timezone dropped
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.users DROP COLUMN speedunit
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Column users.speedunit dropped
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.users DROP COLUMN distanceunit
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Column users.distanceunit dropped
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - CREATE TABLE PUBLIC.commands (id INT AUTO_INCREMENT NOT NULL, description VARCHAR(4000) NOT NULL, type VARCHAR(128) NOT NULL, textchannel BOOLEAN DEFAULT FALSE NOT NULL, attributes VARCHAR(4000) NOT NULL, CONSTRAINT PK_COMMANDS PRIMARY KEY (id))
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table commands created
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - CREATE TABLE PUBLIC.user_command (userid INT NOT NULL, commandid INT NOT NULL)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table user_command created
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.user_command ADD CONSTRAINT fk_user_command_userid FOREIGN KEY (userid) REFERENCES PUBLIC.users (id) ON DELETE CASCADE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to user_command (userid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.user_command ADD CONSTRAINT fk_user_command_commandid FOREIGN KEY (commandid) REFERENCES PUBLIC.commands (id) ON DELETE CASCADE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to user_command (commandid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - CREATE TABLE PUBLIC.group_command (groupid INT NOT NULL, commandid INT NOT NULL)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table group_command created
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.group_command ADD CONSTRAINT fk_group_command_groupid FOREIGN KEY (groupid) REFERENCES PUBLIC.groups (id) ON DELETE CASCADE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to group_command (groupid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.group_command ADD CONSTRAINT fk_group_command_commandid FOREIGN KEY (commandid) REFERENCES PUBLIC.commands (id) ON DELETE CASCADE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to group_command (commandid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - CREATE TABLE PUBLIC.device_command (deviceid INT NOT NULL, commandid INT NOT NULL)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table device_command created
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.device_command ADD CONSTRAINT fk_device_command_deviceid FOREIGN KEY (deviceid) REFERENCES PUBLIC.devices (id) ON DELETE CASCADE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to device_command (deviceid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.device_command ADD CONSTRAINT fk_device_command_commandid FOREIGN KEY (commandid) REFERENCES PUBLIC.commands (id) ON DELETE CASCADE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to device_command (commandid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.servers ADD limitcommands BOOLEAN DEFAULT FALSE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Columns limitcommands(BOOLEAN) added to servers
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.users ADD limitcommands BOOLEAN DEFAULT FALSE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Columns limitcommands(BOOLEAN) added to users
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.notifications ADD always BOOLEAN DEFAULT FALSE NOT NULL
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.notifications SET always = TRUE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Columns always(BOOLEAN) added to notifications
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - CREATE TABLE PUBLIC.user_notification (userid INT NOT NULL, notificationid INT NOT NULL)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table user_notification created
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.user_notification ADD CONSTRAINT fk_user_notification_userid FOREIGN KEY (userid) REFERENCES PUBLIC.users (id) ON DELETE CASCADE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to user_notification (userid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - INSERT INTO user_notification (notificationid, userid) SELECT id AS notificationid, userid FROM notifications
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Custom SQL executed
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.notifications DROP CONSTRAINT fk_notifications_userid
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key fk_notifications_userid dropped
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.notifications DROP COLUMN userid
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Column notifications.userid dropped
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.user_notification ADD CONSTRAINT fk_user_notification_notificationid FOREIGN KEY (notificationid) REFERENCES PUBLIC.notifications (id) ON DELETE CASCADE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to user_notification (notificationid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - CREATE TABLE PUBLIC.group_notification (groupid INT NOT NULL, notificationid INT NOT NULL)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table group_notification created
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.group_notification ADD CONSTRAINT fk_group_notification_groupid FOREIGN KEY (groupid) REFERENCES PUBLIC.groups (id) ON DELETE CASCADE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to group_notification (groupid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.group_notification ADD CONSTRAINT fk_group_notification_notificationid FOREIGN KEY (notificationid) REFERENCES PUBLIC.notifications (id) ON DELETE CASCADE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to group_notification (notificationid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - CREATE TABLE PUBLIC.device_notification (deviceid INT NOT NULL, notificationid INT NOT NULL)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table device_notification created
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.device_notification ADD CONSTRAINT fk_device_notification_deviceid FOREIGN KEY (deviceid) REFERENCES PUBLIC.devices (id) ON DELETE CASCADE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to device_notification (deviceid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.device_notification ADD CONSTRAINT fk_device_notification_notificationid FOREIGN KEY (notificationid) REFERENCES PUBLIC.notifications (id) ON DELETE CASCADE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to device_notification (notificationid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.users ALTER COLUMN hashedpassword SET NULL
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Null constraint dropped from users.hashedpassword
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.users ALTER COLUMN salt SET NULL
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Null constraint dropped from users.salt
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.users ADD login VARCHAR(128)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Columns login(VARCHAR(128)) added to users
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - ChangeSet changelog-3.15::changelog-3.15::author ran successfully in 64ms
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - INSERT INTO PUBLIC.DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, DESCRIPTION, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('changelog-3.15', 'author', 'changelog-3.15', NOW(), 17, '8:ac8ccec176027e98bbf45dc6c15d9b05', 'dropForeignKeyConstraint baseTableName=attribute_aliases, constraintName=fk_attribute_aliases_deviceid; dropUniqueConstraint constraintName=uk_deviceid_attribute, tableName=attribute_aliases; dropTable tableName=attribute_aliases; dropColumn colum...', '', 'EXECUTED', NULL, NULL, '3.6.2', '7792158501')
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.devices ADD disabled BOOLEAN DEFAULT FALSE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Columns disabled(BOOLEAN) added to devices
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.users ADD poilayer VARCHAR(512)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Columns poilayer(VARCHAR(512)) added to users
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.servers ADD poilayer VARCHAR(512)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Columns poilayer(VARCHAR(512)) added to servers
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.notifications ADD calendarid INT
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Columns calendarid(INT) added to notifications
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.notifications ADD CONSTRAINT fk_notification_calendar_calendarid FOREIGN KEY (calendarid) REFERENCES PUBLIC.calendars (id) ON UPDATE RESTRICT ON DELETE SET NULL
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to notifications (calendarid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - ChangeSet changelog-3.16::changelog-3.16::author ran successfully in 16ms
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - INSERT INTO PUBLIC.DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, DESCRIPTION, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('changelog-3.16', 'author', 'changelog-3.16', NOW(), 18, '8:b59407d70bfe9bf57bc9968adfbbdf1c', 'addColumn tableName=devices; addColumn tableName=users; addColumn tableName=servers; addColumn tableName=notifications; addForeignKeyConstraint baseTableName=notifications, constraintName=fk_notification_calendar_calendarid, referencedTableName=ca...', '', 'EXECUTED', NULL, NULL, '3.6.2', '7792158501')
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Marking ChangeSet: changelog-3.17::changelog-3.3-admin::author ran despite precondition failure due to onFail='MARK_RAN': 
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|          ./schema/changelog-master.xml : Not precondition failed
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - INSERT INTO PUBLIC.DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, DESCRIPTION, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('changelog-3.3-admin', 'author', 'changelog-3.17', NOW(), 19, '8:3f14c3b08068eb7628d0d3e2941eb2d3', 'renameColumn newColumnName=administrator, oldColumnName=admin, tableName=users', '', 'MARK_RAN', NULL, NULL, '3.6.2', '7792158501')
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.events ADD maintenanceid INT
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Columns maintenanceid(INT) added to events
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - CREATE TABLE PUBLIC.maintenances (id INT AUTO_INCREMENT NOT NULL, name VARCHAR(4000) NOT NULL, type VARCHAR(128) NOT NULL, start DOUBLE DEFAULT 0 NOT NULL, period DOUBLE DEFAULT 0 NOT NULL, attributes VARCHAR(4000) NOT NULL, CONSTRAINT PK_MAINTENANCES PRIMARY KEY (id))
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table maintenances created
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - CREATE TABLE PUBLIC.user_maintenance (userid INT NOT NULL, maintenanceid INT NOT NULL)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table user_maintenance created
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.user_maintenance ADD CONSTRAINT fk_user_maintenance_userid FOREIGN KEY (userid) REFERENCES PUBLIC.users (id) ON DELETE CASCADE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to user_maintenance (userid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.user_maintenance ADD CONSTRAINT fk_user_maintenance_maintenanceid FOREIGN KEY (maintenanceid) REFERENCES PUBLIC.maintenances (id) ON DELETE CASCADE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to user_maintenance (maintenanceid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - CREATE TABLE PUBLIC.group_maintenance (groupid INT NOT NULL, maintenanceid INT NOT NULL)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table group_maintenance created
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.group_maintenance ADD CONSTRAINT fk_group_maintenance_groupid FOREIGN KEY (groupid) REFERENCES PUBLIC.groups (id) ON DELETE CASCADE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to group_maintenance (groupid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.group_maintenance ADD CONSTRAINT fk_group_maintenance_maintenanceid FOREIGN KEY (maintenanceid) REFERENCES PUBLIC.maintenances (id) ON DELETE CASCADE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to group_maintenance (maintenanceid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - CREATE TABLE PUBLIC.device_maintenance (deviceid INT NOT NULL, maintenanceid INT NOT NULL)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table device_maintenance created
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.device_maintenance ADD CONSTRAINT fk_device_maintenance_deviceid FOREIGN KEY (deviceid) REFERENCES PUBLIC.devices (id) ON DELETE CASCADE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to device_maintenance (deviceid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.device_maintenance ADD CONSTRAINT fk_device_maintenance_maintenanceid FOREIGN KEY (maintenanceid) REFERENCES PUBLIC.maintenances (id) ON DELETE CASCADE
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Foreign key constraint added to device_maintenance (maintenanceid)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - ChangeSet changelog-3.17::changelog-3.17::author ran successfully in 11ms
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - INSERT INTO PUBLIC.DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, DESCRIPTION, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('changelog-3.17', 'author', 'changelog-3.17', NOW(), 20, '8:8aa3e56afe6ba86cd004fa801507bc28', 'addColumn tableName=events; createTable tableName=maintenances; createTable tableName=user_maintenance; addForeignKeyConstraint baseTableName=user_maintenance, constraintName=fk_user_maintenance_userid, referencedTableName=users; addForeignKeyCons...', '', 'EXECUTED', NULL, NULL, '3.6.2', '7792158501')
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.attributes RENAME TO tc_attributes
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table attributes renamed to tc_attributes
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.calendars RENAME TO tc_calendars
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table calendars renamed to tc_calendars
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.commands RENAME TO tc_commands
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table commands renamed to tc_commands
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.device_attribute RENAME TO tc_device_attribute
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table device_attribute renamed to tc_device_attribute
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.device_command RENAME TO tc_device_command
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table device_command renamed to tc_device_command
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.device_driver RENAME TO tc_device_driver
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table device_driver renamed to tc_device_driver
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.device_geofence RENAME TO tc_device_geofence
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table device_geofence renamed to tc_device_geofence
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.device_maintenance RENAME TO tc_device_maintenance
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table device_maintenance renamed to tc_device_maintenance
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.device_notification RENAME TO tc_device_notification
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table device_notification renamed to tc_device_notification
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.devices RENAME TO tc_devices
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table devices renamed to tc_devices
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.drivers RENAME TO tc_drivers
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table drivers renamed to tc_drivers
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.events RENAME TO tc_events
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table events renamed to tc_events
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.geofences RENAME TO tc_geofences
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table geofences renamed to tc_geofences
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.group_attribute RENAME TO tc_group_attribute
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table group_attribute renamed to tc_group_attribute
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.group_command RENAME TO tc_group_command
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table group_command renamed to tc_group_command
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.group_driver RENAME TO tc_group_driver
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table group_driver renamed to tc_group_driver
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.group_geofence RENAME TO tc_group_geofence
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table group_geofence renamed to tc_group_geofence
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.group_maintenance RENAME TO tc_group_maintenance
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table group_maintenance renamed to tc_group_maintenance
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.group_notification RENAME TO tc_group_notification
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table group_notification renamed to tc_group_notification
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.groups RENAME TO tc_groups
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table groups renamed to tc_groups
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.maintenances RENAME TO tc_maintenances
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table maintenances renamed to tc_maintenances
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.notifications RENAME TO tc_notifications
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table notifications renamed to tc_notifications
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.positions RENAME TO tc_positions
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table positions renamed to tc_positions
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.servers RENAME TO tc_servers
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table servers renamed to tc_servers
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.statistics RENAME TO tc_statistics
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table statistics renamed to tc_statistics
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.user_attribute RENAME TO tc_user_attribute
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table user_attribute renamed to tc_user_attribute
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.user_calendar RENAME TO tc_user_calendar
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table user_calendar renamed to tc_user_calendar
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.user_command RENAME TO tc_user_command
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table user_command renamed to tc_user_command
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.user_device RENAME TO tc_user_device
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table user_device renamed to tc_user_device
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.user_driver RENAME TO tc_user_driver
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table user_driver renamed to tc_user_driver
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.user_geofence RENAME TO tc_user_geofence
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table user_geofence renamed to tc_user_geofence
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.user_group RENAME TO tc_user_group
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table user_group renamed to tc_user_group
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.user_maintenance RENAME TO tc_user_maintenance
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table user_maintenance renamed to tc_user_maintenance
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.user_notification RENAME TO tc_user_notification
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table user_notification renamed to tc_user_notification
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.user_user RENAME TO tc_user_user
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table user_user renamed to tc_user_user
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.users RENAME TO tc_users
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Table users renamed to tc_users
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - ChangeSet changelog-4.0::changelog-4.0-renaming::author ran successfully in 74ms
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - INSERT INTO PUBLIC.DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, DESCRIPTION, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('changelog-4.0-renaming', 'author', 'changelog-4.0', NOW(), 21, '8:90aedfa378aa717f8d8ae541f97b87b2', 'renameTable newTableName=tc_attributes, oldTableName=attributes; renameTable newTableName=tc_calendars, oldTableName=calendars; renameTable newTableName=tc_commands, oldTableName=commands; renameTable newTableName=tc_device_attribute, oldTableName...', '', 'EXECUTED', NULL, NULL, '3.6.2', '7792158501')
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.tc_notifications ADD notificators VARCHAR(128)
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Columns notificators(VARCHAR(128)) added to tc_notifications
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.tc_notifications SET notificators = 'web,mail,sms' WHERE web = 1 AND mail = 1 AND sms = 1
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Data updated in tc_notifications
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.tc_notifications SET notificators = 'web,mail' WHERE web = 1 AND mail = 1 AND sms = 0
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Data updated in tc_notifications
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.tc_notifications SET notificators = 'web' WHERE web = 1 AND mail = 0 AND sms = 0
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Data updated in tc_notifications
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.tc_notifications SET notificators = 'web,sms' WHERE web = 1 AND mail = 0 AND sms = 1
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Data updated in tc_notifications
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.tc_notifications SET notificators = 'mail,sms' WHERE web = 0 AND mail = 1 AND sms = 1
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Data updated in tc_notifications
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.tc_notifications SET notificators = 'mail' WHERE web = 0 AND mail = 1 AND sms = 0
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Data updated in tc_notifications
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.tc_notifications SET notificators = 'sms' WHERE web = 0 AND mail = 0 AND sms = 1
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Data updated in tc_notifications
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.tc_notifications DROP COLUMN web
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Column tc_notifications.web dropped
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.tc_notifications DROP COLUMN mail
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Column tc_notifications.mail dropped
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - ALTER TABLE PUBLIC.tc_notifications DROP COLUMN sms
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - Column tc_notifications.sms dropped
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.changelog.ChangeSet - ChangeSet changelog-4.0::changelog-4.0::author ran successfully in 53ms
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.executor.jvm.JdbcExecutor - INSERT INTO PUBLIC.DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, DESCRIPTION, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('changelog-4.0', 'author', 'changelog-4.0', NOW(), 22, '8:fb1e34fca918102d60b8597e461be40c', 'addColumn tableName=tc_notifications; update tableName=tc_notifications; update tableName=tc_notifications; update tableName=tc_notifications; update tableName=tc_notifications; update tableName=tc_notifications; update tableName=tc_notifications;...', '', 'EXECUTED', NULL, NULL, '3.6.2', '7792158501')
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO liquibase.lockservice.StandardLockService - Successfully released change log lock
+FINEST|1470/0|Service traccar|18-09-24 12:29:19|[main] INFO org.eclipse.jetty.util.log - Logging initialized @6311ms
+FINEST|1470/0|Service traccar|18-09-24 12:29:21|[main] INFO org.eclipse.jetty.server.Server - jetty-9.2.24.v20180105
+FINEST|1470/0|Service traccar|18-09-24 12:29:22|[main] INFO org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@7d2c9361{/api,null,AVAILABLE}
+FINEST|1470/0|Service traccar|18-09-24 12:29:22|[main] INFO org.eclipse.jetty.server.handler.ContextHandler - Started o.t.w.@679d0be8{/,null,AVAILABLE}
+FINEST|1470/0|Service traccar|18-09-24 12:29:22|[main] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@7b14c61{HTTP/1.1}{0.0.0.0:8082}
+FINEST|1470/0|Service traccar|18-09-24 12:29:22|[main] INFO org.eclipse.jetty.server.Server - Started @8694ms
+INFO|wrapper|Service traccar|18-09-24 12:30:20|stopping process with pid/timeout 1470 45000
+INFO|wrapper|Service traccar|18-09-24 12:30:20|Shutting down Wrapper
+INFO|1470/0|Service traccar|18-09-24 12:30:21|wrapper manager received stop command
+FINEST|1470/0|Service traccar|18-09-24 12:30:21|[Thread-13] INFO org.eclipse.jetty.server.ServerConnector - Stopped ServerConnector@7b14c61{HTTP/1.1}{0.0.0.0:8082}
+FINEST|1470/0|Service traccar|18-09-24 12:30:21|[Thread-13] INFO org.eclipse.jetty.server.handler.ContextHandler - Stopped o.t.w.@679d0be8{/,null,UNAVAILABLE}
+FINEST|1470/0|Service traccar|18-09-24 12:30:21|[Thread-13] INFO org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@7d2c9361{/api,null,UNAVAILABLE}
+INFO|wrapper|Service traccar|18-09-24 12:30:21|waitpid 1470 0
+INFO|wrapper|Service traccar|18-09-24 12:30:21|exit code posix process: 0 application(status/signal): 0/0
+INFO|wrapper|Service traccar|18-09-24 12:30:21|killing 1470
+INFO|wrapper|Service traccar|18-09-24 12:30:22|process exit code: 0
+WARNING|wrapper|Service traccar|18-09-24 12:33:49|YAJSW: yajsw-stable-12.12
+WARNING|wrapper|Service traccar|18-09-24 12:33:49|OS   : Linux/4.4.0-134-generic/amd64
+WARNING|wrapper|Service traccar|18-09-24 12:33:49|JVM  : Oracle Corporation/1.8.0_181//usr/lib/jvm/java-8-openjdk-amd64/jre/64
+INFO|wrapper|Service traccar|18-09-24 12:33:49|exec:java -classpath /opt/traccar/wrapperApp.jar:/opt/traccar/tracker-server.jar:/opt/traccar/lib/log4j-1.2.17.jar:/opt/traccar/lib/joda-time-2.10.jar:/opt/traccar/lib/commons-codec-1.11.jar:/opt/traccar/lib/h2-1.4.197.jar:/opt/traccar/lib/mysql-connector-java-5.1.46.jar:/opt/traccar/lib/postgresql-42.2.4.jre7.jar:/opt/traccar/lib/mssql-jdbc-6.4.0.jre7.jar:/opt/traccar/lib/HikariCP-java7-2.4.13.jar:/opt/traccar/lib/slf4j-api-1.7.21.jar:/opt/traccar/lib/netty-all-4.1.28.Final.jar:/opt/traccar/lib/slf4j-simple-1.7.25.jar:/opt/traccar/lib/javax.json-1.0.4.jar:/opt/traccar/lib/jetty-server-9.2.24.v20180105.jar:/opt/traccar/lib/javax.servlet-api-3.1.0.jar:/opt/traccar/lib/jetty-http-9.2.24.v20180105.jar:/opt/traccar/lib/jetty-io-9.2.24.v20180105.jar:/opt/traccar/lib/jetty-servlet-9.2.24.v20180105.jar:/opt/traccar/lib/jetty-security-9.2.24.v20180105.jar:/opt/traccar/lib/jetty-webapp-9.2.24.v20180105.jar:/opt/traccar/lib/jetty-xml-9.2.24.v20180105.jar:/opt/traccar/lib/jetty-jndi-9.2.24.v20180105.jar:/opt/traccar/lib/jetty-util-9.2.24.v20180105.jar:/opt/traccar/lib/jetty-proxy-9.2.24.v20180105.jar:/opt/traccar/lib/jetty-client-9.2.24.v20180105.jar:/opt/traccar/lib/websocket-server-9.2.24.v20180105.jar:/opt/traccar/lib/websocket-common-9.2.24.v20180105.jar:/opt/traccar/lib/websocket-api-9.2.24.v20180105.jar:/opt/traccar/lib/websocket-client-9.2.24.v20180105.jar:/opt/traccar/lib/websocket-servlet-9.2.24.v20180105.jar:/opt/traccar/lib/jersey-container-servlet-2.25.1.jar:/opt/traccar/lib/jersey-container-servlet-core-2.25.1.jar:/opt/traccar/lib/javax.inject-2.5.0-b32.jar:/opt/traccar/lib/jersey-common-2.25.1.jar:/opt/traccar/lib/javax.annotation-api-1.2.jar:/opt/traccar/lib/jersey-guava-2.25.1.jar:/opt/traccar/lib/hk2-api-2.5.0-b32.jar:/opt/traccar/lib/hk2-utils-2.5.0-b32.jar:/opt/traccar/lib/aopalliance-repackaged-2.5.0-b32.jar:/opt/traccar/lib/hk2-locator-2.5.0-b32.jar:/opt/traccar/lib/javassist-3.20.0-GA.jar:/opt/traccar/lib/osgi-resource-locator-1.0.1.jar:/opt/traccar/lib/jersey-server-2.25.1.jar:/opt/traccar/lib/jersey-client-2.25.1.jar:/opt/traccar/lib/jersey-media-jaxb-2.25.1.jar:/opt/traccar/lib/validation-api-1.1.0.Final.jar:/opt/traccar/lib/javax.ws.rs-api-2.0.1.jar:/opt/traccar/lib/jersey-media-json-jackson-2.25.1.jar:/opt/traccar/lib/jersey-entity-filtering-2.25.1.jar:/opt/traccar/lib/jackson-jaxrs-base-2.8.4.jar:/opt/traccar/lib/jackson-jaxrs-json-provider-2.8.4.jar:/opt/traccar/lib/jackson-module-jaxb-annotations-2.8.4.jar:/opt/traccar/lib/jackson-annotations-2.8.4.jar:/opt/traccar/lib/jackson-datatype-jsr353-2.8.4.jar:/opt/traccar/lib/jackson-core-2.8.4.jar:/opt/traccar/lib/jackson-databind-2.8.4.jar:/opt/traccar/lib/javax.json-api-1.0.jar:/opt/traccar/lib/liquibase-core-3.6.2.jar:/opt/traccar/lib/snakeyaml-1.18.jar:/opt/traccar/lib/logback-classic-1.2.3.jar:/opt/traccar/lib/mail-1.4.7.jar:/opt/traccar/lib/activation-1.1.jar:/opt/traccar/lib/jxls-2.4.6.jar:/opt/traccar/lib/commons-jexl-2.1.1.jar:/opt/traccar/lib/commons-beanutils-1.9.2.jar:/opt/traccar/lib/jcl-over-slf4j-1.7.12.jar:/opt/traccar/lib/logback-core-1.1.3.jar:/opt/traccar/lib/jxls-poi-1.0.15.jar:/opt/traccar/lib/poi-3.17.jar:/opt/traccar/lib/poi-ooxml-3.17.jar:/opt/traccar/lib/poi-ooxml-schemas-3.17.jar:/opt/traccar/lib/xmlbeans-2.6.0.jar:/opt/traccar/lib/stax-api-1.0.1.jar:/opt/traccar/lib/curvesapi-1.04.jar:/opt/traccar/lib/velocity-1.7.jar:/opt/traccar/lib/commons-collections-3.2.1.jar:/opt/traccar/lib/commons-lang-2.4.jar:/opt/traccar/lib/velocity-tools-2.0.jar:/opt/traccar/lib/commons-digester-1.8.jar:/opt/traccar/lib/commons-chain-1.1.jar:/opt/traccar/lib/commons-logging-1.1.jar:/opt/traccar/lib/servlet-api-2.3.jar:/opt/traccar/lib/commons-validator-1.3.1.jar:/opt/traccar/lib/dom4j-1.1.jar:/opt/traccar/lib/oro-2.0.8.jar:/opt/traccar/lib/sslext-1.2-0.jar:/opt/traccar/lib/struts-core-1.3.8.jar:/opt/traccar/lib/antlr-2.7.2.jar:/opt/traccar/lib/struts-taglib-1.3.8.jar:/opt/traccar/lib/struts-tiles-1.3.8.jar:/opt/traccar/lib/commons-collections4-4.2.jar:/opt/traccar/lib/ical4j-2.0.5.jar:/opt/traccar/lib/commons-lang3-3.6.jar:/opt/traccar/lib/threetenbp-1.3.6.jar:/opt/traccar/lib/ch-smpp-6.0.0-netty4-beta-3.jar:/opt/traccar/lib/ch-commons-util-6.0.2.jar:/opt/traccar/lib/ch-commons-charset-3.0.2.jar -Dfile.encoding=UTF-8 -Xrs -Dwrapper.service=true -Dwrapper.console.visible=false -Dwrapper.port=15003 -Dwrapper.key=1510960271051048869 -Dwrapper.teeName=1510960271051048869$1537792429645 -Dwrapper.tmp.path=/opt/traccar/tmp -Djna_tmpdir=/opt/traccar/tmp -Dwrapper.config=/opt/traccar/conf/wrapper.conf -Dwrapper.visible=false -Dwrapper.pidfile=/run/wrapper.traccar.pid org.rzo.yajsw.app.WrapperJVMMain 
+INFO|wrapper|Service traccar|18-09-24 12:33:49|posix_spawn pid 2446
+INFO|wrapper|Service traccar|18-09-24 12:33:49|started process 2446
+INFO|wrapper|Service traccar|18-09-24 12:33:49|started process with pid 2446
+INFO|2446/0|Service traccar|18-09-24 12:33:50|[INFO] StandardFileSystemManager - Using "/tmp/vfs_cache" as temporary files store.
+INFO|2446/0|Service traccar|18-09-24 12:33:51|SLF4J: Class path contains multiple SLF4J bindings.
+INFO|2446/0|Service traccar|18-09-24 12:33:51|SLF4J: Found binding in [jar:file:/opt/traccar/lib/slf4j-simple-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+INFO|2446/0|Service traccar|18-09-24 12:33:51|SLF4J: Found binding in [jar:file:/opt/traccar/lib/logback-classic-1.2.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+INFO|2446/0|Service traccar|18-09-24 12:33:51|SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+INFO|2446/0|Service traccar|18-09-24 12:33:51|SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+INFO|2446/0|Service traccar|18-09-24 12:33:51|[main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+INFO|2446/0|Service traccar|18-09-24 12:33:51|[main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+INFO|2446/0|Service traccar|18-09-24 12:33:52|[main] INFO liquibase.Liquibase - Clearing database change log checksums
+INFO|2446/0|Service traccar|18-09-24 12:33:52|[main] INFO liquibase.executor.jvm.JdbcExecutor - SELECT COUNT(*) FROM PUBLIC.DATABASECHANGELOGLOCK
+INFO|2446/0|Service traccar|18-09-24 12:33:52|[main] INFO liquibase.executor.jvm.JdbcExecutor - SELECT COUNT(*) FROM PUBLIC.DATABASECHANGELOGLOCK
+INFO|2446/0|Service traccar|18-09-24 12:33:52|[main] INFO liquibase.executor.jvm.JdbcExecutor - SELECT LOCKED FROM PUBLIC.DATABASECHANGELOGLOCK WHERE ID=1
+INFO|2446/0|Service traccar|18-09-24 12:33:52|[main] INFO liquibase.lockservice.StandardLockService - Successfully acquired change log lock
+INFO|2446/0|Service traccar|18-09-24 12:33:52|[main] INFO liquibase.executor.jvm.JdbcExecutor - SELECT MD5SUM FROM PUBLIC.DATABASECHANGELOG WHERE MD5SUM IS NOT NULL
+INFO|2446/0|Service traccar|18-09-24 12:33:52|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = NULL
+INFO|2446/0|Service traccar|18-09-24 12:33:52|[main] INFO liquibase.lockservice.StandardLockService - Successfully released change log lock
+INFO|2446/0|Service traccar|18-09-24 12:33:52|[main] INFO liquibase.executor.jvm.JdbcExecutor - SELECT COUNT(*) FROM PUBLIC.DATABASECHANGELOGLOCK
+INFO|2446/0|Service traccar|18-09-24 12:33:52|[main] INFO liquibase.executor.jvm.JdbcExecutor - SELECT COUNT(*) FROM PUBLIC.DATABASECHANGELOGLOCK
+INFO|2446/0|Service traccar|18-09-24 12:33:52|[main] INFO liquibase.executor.jvm.JdbcExecutor - SELECT LOCKED FROM PUBLIC.DATABASECHANGELOGLOCK WHERE ID=1
+INFO|2446/0|Service traccar|18-09-24 12:33:52|[main] INFO liquibase.lockservice.StandardLockService - Successfully acquired change log lock
+INFO|2446/0|Service traccar|18-09-24 12:33:53|[main] INFO liquibase.executor.jvm.JdbcExecutor - SELECT MD5SUM FROM PUBLIC.DATABASECHANGELOG WHERE MD5SUM IS NOT NULL
+INFO|2446/0|Service traccar|18-09-24 12:33:53|[main] INFO liquibase.executor.jvm.JdbcExecutor - SELECT COUNT(*) FROM PUBLIC.DATABASECHANGELOG
+INFO|2446/0|Service traccar|18-09-24 12:33:53|[main] INFO liquibase.changelog.StandardChangeLogHistoryService - Reading from PUBLIC.DATABASECHANGELOG
+INFO|2446/0|Service traccar|18-09-24 12:33:53|[main] INFO liquibase.executor.jvm.JdbcExecutor - SELECT * FROM PUBLIC.DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC
+INFO|2446/0|Service traccar|18-09-24 12:33:53|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = '8:ea6f202534dc7845fd1a49e1d8384d9c' WHERE ID = 'changelog-3.3' AND AUTHOR = 'author' AND FILENAME = 'changelog-3.3'
+INFO|2446/0|Service traccar|18-09-24 12:33:53|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = '8:194e3ae7ec6d201917136e04a26e237b' WHERE ID = 'changelog-3.5' AND AUTHOR = 'author' AND FILENAME = 'changelog-3.5'
+INFO|2446/0|Service traccar|18-09-24 12:33:53|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = '8:1ec7941b03749f24e365bc6126b07e1a' WHERE ID = 'changelog-3.6' AND AUTHOR = 'author' AND FILENAME = 'changelog-3.6'
+INFO|2446/0|Service traccar|18-09-24 12:33:53|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = '8:2e444e379f31d0b8e09273ec7ffe87a0' WHERE ID = 'changelog-3.7' AND AUTHOR = 'author' AND FILENAME = 'changelog-3.7'
+INFO|2446/0|Service traccar|18-09-24 12:33:53|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = '8:974c33d2fb399ef6477c3897450fb078' WHERE ID = 'changelog-3.7-notmssql' AND AUTHOR = 'author' AND FILENAME = 'changelog-3.7'
+INFO|2446/0|Service traccar|18-09-24 12:33:54|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = '8:74d68027951f8d2ae6bb2e24df8365bc' WHERE ID = 'changelog-3.8' AND AUTHOR = 'author' AND FILENAME = 'changelog-3.8'
+INFO|2446/0|Service traccar|18-09-24 12:33:54|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = '8:34822842d65deb843a7d16f857d52ecc' WHERE ID = 'changelog-3.9' AND AUTHOR = 'author' AND FILENAME = 'changelog-3.9'
+INFO|2446/0|Service traccar|18-09-24 12:33:54|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = '8:e1ddbe83e1ecf856a912755fc118f82e' WHERE ID = 'changelog-3.10' AND AUTHOR = 'author' AND FILENAME = 'changelog-3.10'
+INFO|2446/0|Service traccar|18-09-24 12:33:54|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = '8:191c21d8f0f921845cf93bbc9d0639b9' WHERE ID = 'changelog-3.10-notmssql' AND AUTHOR = 'author' AND FILENAME = 'changelog-3.10'
+INFO|2446/0|Service traccar|18-09-24 12:33:54|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = '8:ad1f63566e8d08812fbf0b93a118ef6e' WHERE ID = 'changelog-3.10-mssql' AND AUTHOR = 'author' AND FILENAME = 'changelog-3.10'
+INFO|2446/0|Service traccar|18-09-24 12:33:54|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = '8:127b36b9d32a9d236df51d19b18c3766' WHERE ID = 'changelog-3.7-mssql' AND AUTHOR = 'author' AND FILENAME = 'changelog-3.10'
+INFO|2446/0|Service traccar|18-09-24 12:33:54|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = '8:7800f890b9706a480bd5a79b591b6ca7' WHERE ID = 'changelog-3.11' AND AUTHOR = 'author' AND FILENAME = 'changelog-3.11'
+INFO|2446/0|Service traccar|18-09-24 12:33:54|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = '8:5ce520811d626ad325a014b9fcbb1a13' WHERE ID = 'changelog-3.12' AND AUTHOR = 'author' AND FILENAME = 'changelog-3.12'
+INFO|2446/0|Service traccar|18-09-24 12:33:54|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = '8:a3bf7fabcde29e106fe2f89829a76a84' WHERE ID = 'changelog-3.12-notmssql' AND AUTHOR = 'author' AND FILENAME = 'changelog-3.12'
+INFO|2446/0|Service traccar|18-09-24 12:33:54|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = '8:cfc881bd2dadb561aa9c1a467bc8cc1c' WHERE ID = 'changelog-3.12-pgsql' AND AUTHOR = 'author' AND FILENAME = 'changelog-3.12'
+INFO|2446/0|Service traccar|18-09-24 12:33:54|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = '8:1be7e6c0520f8be53ef1b099d96afba5' WHERE ID = 'changelog-3.14' AND AUTHOR = 'author' AND FILENAME = 'changelog-3.14'
+INFO|2446/0|Service traccar|18-09-24 12:33:54|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = '8:ac8ccec176027e98bbf45dc6c15d9b05' WHERE ID = 'changelog-3.15' AND AUTHOR = 'author' AND FILENAME = 'changelog-3.15'
+INFO|2446/0|Service traccar|18-09-24 12:33:54|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = '8:b59407d70bfe9bf57bc9968adfbbdf1c' WHERE ID = 'changelog-3.16' AND AUTHOR = 'author' AND FILENAME = 'changelog-3.16'
+INFO|2446/0|Service traccar|18-09-24 12:33:54|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = '8:3f14c3b08068eb7628d0d3e2941eb2d3' WHERE ID = 'changelog-3.3-admin' AND AUTHOR = 'author' AND FILENAME = 'changelog-3.17'
+INFO|2446/0|Service traccar|18-09-24 12:33:54|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = '8:8aa3e56afe6ba86cd004fa801507bc28' WHERE ID = 'changelog-3.17' AND AUTHOR = 'author' AND FILENAME = 'changelog-3.17'
+INFO|2446/0|Service traccar|18-09-24 12:33:54|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = '8:90aedfa378aa717f8d8ae541f97b87b2' WHERE ID = 'changelog-4.0-renaming' AND AUTHOR = 'author' AND FILENAME = 'changelog-4.0'
+INFO|2446/0|Service traccar|18-09-24 12:33:54|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = '8:fb1e34fca918102d60b8597e461be40c' WHERE ID = 'changelog-4.0' AND AUTHOR = 'author' AND FILENAME = 'changelog-4.0'
+INFO|2446/0|Service traccar|18-09-24 12:33:54|[main] INFO liquibase.executor.jvm.JdbcExecutor - SELECT COUNT(*) FROM PUBLIC.DATABASECHANGELOG
+INFO|2446/0|Service traccar|18-09-24 12:33:54|[main] INFO liquibase.changelog.StandardChangeLogHistoryService - Reading from PUBLIC.DATABASECHANGELOG
+INFO|2446/0|Service traccar|18-09-24 12:33:54|[main] INFO liquibase.executor.jvm.JdbcExecutor - SELECT * FROM PUBLIC.DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC
+INFO|2446/0|Service traccar|18-09-24 12:33:54|[main] INFO liquibase.lockservice.StandardLockService - Successfully released change log lock
+INFO|2446/0|Service traccar|18-09-24 12:33:54|[main] INFO org.eclipse.jetty.util.log - Logging initialized @3924ms
+INFO|2446/0|Service traccar|18-09-24 12:33:54|[main] INFO org.eclipse.jetty.server.Server - jetty-9.2.24.v20180105
+INFO|2446/0|Service traccar|18-09-24 12:33:55|[main] INFO org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@64502326{/api,null,AVAILABLE}
+INFO|2446/0|Service traccar|18-09-24 12:33:55|[main] INFO org.eclipse.jetty.server.handler.ContextHandler - Started o.t.w.@6d6bff89{/,null,AVAILABLE}
+INFO|2446/0|Service traccar|18-09-24 12:33:55|[main] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@71751870{HTTP/1.1}{0.0.0.0:8082}
+INFO|2446/0|Service traccar|18-09-24 12:33:55|[main] INFO org.eclipse.jetty.server.Server - Started @5598ms
+INFO|wrapper|Service traccar|18-09-24 12:43:48|Shutting down Wrapper
+INFO|wrapper|Service traccar|18-09-24 12:43:48|stopping process with pid/timeout 2446 45000
+INFO|2446/0|Service traccar|18-09-24 12:43:49|wrapper manager received stop command
+INFO|2446/0|Service traccar|18-09-24 12:43:49|[Thread-13] INFO org.eclipse.jetty.server.ServerConnector - Stopped ServerConnector@71751870{HTTP/1.1}{0.0.0.0:8082}
+INFO|2446/0|Service traccar|18-09-24 12:43:49|[Thread-13] INFO org.eclipse.jetty.server.handler.ContextHandler - Stopped o.t.w.@6d6bff89{/,null,UNAVAILABLE}
+INFO|2446/0|Service traccar|18-09-24 12:43:49|[Thread-13] INFO org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@64502326{/api,null,UNAVAILABLE}
+INFO|wrapper|Service traccar|18-09-24 12:43:49|waitpid 2446 0
+INFO|wrapper|Service traccar|18-09-24 12:43:49|exit code posix process: 0 application(status/signal): 0/0
+INFO|wrapper|Service traccar|18-09-24 12:43:49|killing 2446
+INFO|wrapper|Service traccar|18-09-24 12:43:50|process exit code: 0
+WARNING|wrapper|Service traccar|18-09-24 12:44:22|YAJSW: yajsw-stable-12.12
+WARNING|wrapper|Service traccar|18-09-24 12:44:22|OS   : Linux/4.4.0-134-generic/amd64
+WARNING|wrapper|Service traccar|18-09-24 12:44:22|JVM  : Oracle Corporation/1.8.0_181//usr/lib/jvm/java-8-openjdk-amd64/jre/64
+INFO|wrapper|Service traccar|18-09-24 12:44:22|exec:java -classpath /opt/traccar/wrapperApp.jar:/opt/traccar/tracker-server.jar:/opt/traccar/lib/log4j-1.2.17.jar:/opt/traccar/lib/joda-time-2.10.jar:/opt/traccar/lib/commons-codec-1.11.jar:/opt/traccar/lib/h2-1.4.197.jar:/opt/traccar/lib/mysql-connector-java-5.1.46.jar:/opt/traccar/lib/postgresql-42.2.4.jre7.jar:/opt/traccar/lib/mssql-jdbc-6.4.0.jre7.jar:/opt/traccar/lib/HikariCP-java7-2.4.13.jar:/opt/traccar/lib/slf4j-api-1.7.21.jar:/opt/traccar/lib/netty-all-4.1.28.Final.jar:/opt/traccar/lib/slf4j-simple-1.7.25.jar:/opt/traccar/lib/javax.json-1.0.4.jar:/opt/traccar/lib/jetty-server-9.2.24.v20180105.jar:/opt/traccar/lib/javax.servlet-api-3.1.0.jar:/opt/traccar/lib/jetty-http-9.2.24.v20180105.jar:/opt/traccar/lib/jetty-io-9.2.24.v20180105.jar:/opt/traccar/lib/jetty-servlet-9.2.24.v20180105.jar:/opt/traccar/lib/jetty-security-9.2.24.v20180105.jar:/opt/traccar/lib/jetty-webapp-9.2.24.v20180105.jar:/opt/traccar/lib/jetty-xml-9.2.24.v20180105.jar:/opt/traccar/lib/jetty-jndi-9.2.24.v20180105.jar:/opt/traccar/lib/jetty-util-9.2.24.v20180105.jar:/opt/traccar/lib/jetty-proxy-9.2.24.v20180105.jar:/opt/traccar/lib/jetty-client-9.2.24.v20180105.jar:/opt/traccar/lib/websocket-server-9.2.24.v20180105.jar:/opt/traccar/lib/websocket-common-9.2.24.v20180105.jar:/opt/traccar/lib/websocket-api-9.2.24.v20180105.jar:/opt/traccar/lib/websocket-client-9.2.24.v20180105.jar:/opt/traccar/lib/websocket-servlet-9.2.24.v20180105.jar:/opt/traccar/lib/jersey-container-servlet-2.25.1.jar:/opt/traccar/lib/jersey-container-servlet-core-2.25.1.jar:/opt/traccar/lib/javax.inject-2.5.0-b32.jar:/opt/traccar/lib/jersey-common-2.25.1.jar:/opt/traccar/lib/javax.annotation-api-1.2.jar:/opt/traccar/lib/jersey-guava-2.25.1.jar:/opt/traccar/lib/hk2-api-2.5.0-b32.jar:/opt/traccar/lib/hk2-utils-2.5.0-b32.jar:/opt/traccar/lib/aopalliance-repackaged-2.5.0-b32.jar:/opt/traccar/lib/hk2-locator-2.5.0-b32.jar:/opt/traccar/lib/javassist-3.20.0-GA.jar:/opt/traccar/lib/osgi-resource-locator-1.0.1.jar:/opt/traccar/lib/jersey-server-2.25.1.jar:/opt/traccar/lib/jersey-client-2.25.1.jar:/opt/traccar/lib/jersey-media-jaxb-2.25.1.jar:/opt/traccar/lib/validation-api-1.1.0.Final.jar:/opt/traccar/lib/javax.ws.rs-api-2.0.1.jar:/opt/traccar/lib/jersey-media-json-jackson-2.25.1.jar:/opt/traccar/lib/jersey-entity-filtering-2.25.1.jar:/opt/traccar/lib/jackson-jaxrs-base-2.8.4.jar:/opt/traccar/lib/jackson-jaxrs-json-provider-2.8.4.jar:/opt/traccar/lib/jackson-module-jaxb-annotations-2.8.4.jar:/opt/traccar/lib/jackson-annotations-2.8.4.jar:/opt/traccar/lib/jackson-datatype-jsr353-2.8.4.jar:/opt/traccar/lib/jackson-core-2.8.4.jar:/opt/traccar/lib/jackson-databind-2.8.4.jar:/opt/traccar/lib/javax.json-api-1.0.jar:/opt/traccar/lib/liquibase-core-3.6.2.jar:/opt/traccar/lib/snakeyaml-1.18.jar:/opt/traccar/lib/logback-classic-1.2.3.jar:/opt/traccar/lib/mail-1.4.7.jar:/opt/traccar/lib/activation-1.1.jar:/opt/traccar/lib/jxls-2.4.6.jar:/opt/traccar/lib/commons-jexl-2.1.1.jar:/opt/traccar/lib/commons-beanutils-1.9.2.jar:/opt/traccar/lib/jcl-over-slf4j-1.7.12.jar:/opt/traccar/lib/logback-core-1.1.3.jar:/opt/traccar/lib/jxls-poi-1.0.15.jar:/opt/traccar/lib/poi-3.17.jar:/opt/traccar/lib/poi-ooxml-3.17.jar:/opt/traccar/lib/poi-ooxml-schemas-3.17.jar:/opt/traccar/lib/xmlbeans-2.6.0.jar:/opt/traccar/lib/stax-api-1.0.1.jar:/opt/traccar/lib/curvesapi-1.04.jar:/opt/traccar/lib/velocity-1.7.jar:/opt/traccar/lib/commons-collections-3.2.1.jar:/opt/traccar/lib/commons-lang-2.4.jar:/opt/traccar/lib/velocity-tools-2.0.jar:/opt/traccar/lib/commons-digester-1.8.jar:/opt/traccar/lib/commons-chain-1.1.jar:/opt/traccar/lib/commons-logging-1.1.jar:/opt/traccar/lib/servlet-api-2.3.jar:/opt/traccar/lib/commons-validator-1.3.1.jar:/opt/traccar/lib/dom4j-1.1.jar:/opt/traccar/lib/oro-2.0.8.jar:/opt/traccar/lib/sslext-1.2-0.jar:/opt/traccar/lib/struts-core-1.3.8.jar:/opt/traccar/lib/antlr-2.7.2.jar:/opt/traccar/lib/struts-taglib-1.3.8.jar:/opt/traccar/lib/struts-tiles-1.3.8.jar:/opt/traccar/lib/commons-collections4-4.2.jar:/opt/traccar/lib/ical4j-2.0.5.jar:/opt/traccar/lib/commons-lang3-3.6.jar:/opt/traccar/lib/threetenbp-1.3.6.jar:/opt/traccar/lib/ch-smpp-6.0.0-netty4-beta-3.jar:/opt/traccar/lib/ch-commons-util-6.0.2.jar:/opt/traccar/lib/ch-commons-charset-3.0.2.jar -Dfile.encoding=UTF-8 -Xrs -Dwrapper.service=true -Dwrapper.console.visible=false -Dwrapper.port=15003 -Dwrapper.key=-5287754118329473161 -Dwrapper.teeName=-5287754118329473161$1537793062272 -Dwrapper.tmp.path=/opt/traccar/tmp -Djna_tmpdir=/opt/traccar/tmp -Dwrapper.config=/opt/traccar/conf/wrapper.conf -Dwrapper.visible=false -Dwrapper.pidfile=/run/wrapper.traccar.pid org.rzo.yajsw.app.WrapperJVMMain 
+INFO|wrapper|Service traccar|18-09-24 12:44:22|posix_spawn pid 1467
+INFO|wrapper|Service traccar|18-09-24 12:44:22|started process 1467
+INFO|wrapper|Service traccar|18-09-24 12:44:22|started process with pid 1467
+INFO|1467/0|Service traccar|18-09-24 12:44:24|[INFO] StandardFileSystemManager - Using "/tmp/vfs_cache" as temporary files store.
+INFO|1467/0|Service traccar|18-09-24 12:44:24|SLF4J: Class path contains multiple SLF4J bindings.
+INFO|1467/0|Service traccar|18-09-24 12:44:24|SLF4J: Found binding in [jar:file:/opt/traccar/lib/slf4j-simple-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+INFO|1467/0|Service traccar|18-09-24 12:44:24|SLF4J: Found binding in [jar:file:/opt/traccar/lib/logback-classic-1.2.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+INFO|1467/0|Service traccar|18-09-24 12:44:24|SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+INFO|1467/0|Service traccar|18-09-24 12:44:24|SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+INFO|1467/0|Service traccar|18-09-24 12:44:24|[main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+INFO|1467/0|Service traccar|18-09-24 12:44:25|[main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+INFO|1467/0|Service traccar|18-09-24 12:44:25|[main] INFO liquibase.Liquibase - Clearing database change log checksums
+INFO|1467/0|Service traccar|18-09-24 12:44:25|[main] INFO liquibase.executor.jvm.JdbcExecutor - SELECT COUNT(*) FROM PUBLIC.DATABASECHANGELOGLOCK
+INFO|1467/0|Service traccar|18-09-24 12:44:25|[main] INFO liquibase.executor.jvm.JdbcExecutor - SELECT COUNT(*) FROM PUBLIC.DATABASECHANGELOGLOCK
+INFO|1467/0|Service traccar|18-09-24 12:44:25|[main] INFO liquibase.executor.jvm.JdbcExecutor - SELECT LOCKED FROM PUBLIC.DATABASECHANGELOGLOCK WHERE ID=1
+INFO|1467/0|Service traccar|18-09-24 12:44:25|[main] INFO liquibase.lockservice.StandardLockService - Successfully acquired change log lock
+INFO|1467/0|Service traccar|18-09-24 12:44:25|[main] INFO liquibase.executor.jvm.JdbcExecutor - SELECT MD5SUM FROM PUBLIC.DATABASECHANGELOG WHERE MD5SUM IS NOT NULL
+INFO|1467/0|Service traccar|18-09-24 12:44:25|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = NULL
+INFO|1467/0|Service traccar|18-09-24 12:44:25|[main] INFO liquibase.lockservice.StandardLockService - Successfully released change log lock
+INFO|1467/0|Service traccar|18-09-24 12:44:25|[main] INFO liquibase.executor.jvm.JdbcExecutor - SELECT COUNT(*) FROM PUBLIC.DATABASECHANGELOGLOCK
+INFO|1467/0|Service traccar|18-09-24 12:44:25|[main] INFO liquibase.executor.jvm.JdbcExecutor - SELECT COUNT(*) FROM PUBLIC.DATABASECHANGELOGLOCK
+INFO|1467/0|Service traccar|18-09-24 12:44:25|[main] INFO liquibase.executor.jvm.JdbcExecutor - SELECT LOCKED FROM PUBLIC.DATABASECHANGELOGLOCK WHERE ID=1
+INFO|1467/0|Service traccar|18-09-24 12:44:25|[main] INFO liquibase.lockservice.StandardLockService - Successfully acquired change log lock
+INFO|1467/0|Service traccar|18-09-24 12:44:27|[main] INFO liquibase.executor.jvm.JdbcExecutor - SELECT MD5SUM FROM PUBLIC.DATABASECHANGELOG WHERE MD5SUM IS NOT NULL
+INFO|1467/0|Service traccar|18-09-24 12:44:27|[main] INFO liquibase.executor.jvm.JdbcExecutor - SELECT COUNT(*) FROM PUBLIC.DATABASECHANGELOG
+INFO|1467/0|Service traccar|18-09-24 12:44:27|[main] INFO liquibase.changelog.StandardChangeLogHistoryService - Reading from PUBLIC.DATABASECHANGELOG
+INFO|1467/0|Service traccar|18-09-24 12:44:27|[main] INFO liquibase.executor.jvm.JdbcExecutor - SELECT * FROM PUBLIC.DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC
+INFO|1467/0|Service traccar|18-09-24 12:44:27|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = '8:ea6f202534dc7845fd1a49e1d8384d9c' WHERE ID = 'changelog-3.3' AND AUTHOR = 'author' AND FILENAME = 'changelog-3.3'
+INFO|1467/0|Service traccar|18-09-24 12:44:27|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = '8:194e3ae7ec6d201917136e04a26e237b' WHERE ID = 'changelog-3.5' AND AUTHOR = 'author' AND FILENAME = 'changelog-3.5'
+INFO|1467/0|Service traccar|18-09-24 12:44:27|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = '8:1ec7941b03749f24e365bc6126b07e1a' WHERE ID = 'changelog-3.6' AND AUTHOR = 'author' AND FILENAME = 'changelog-3.6'
+INFO|1467/0|Service traccar|18-09-24 12:44:27|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = '8:2e444e379f31d0b8e09273ec7ffe87a0' WHERE ID = 'changelog-3.7' AND AUTHOR = 'author' AND FILENAME = 'changelog-3.7'
+INFO|1467/0|Service traccar|18-09-24 12:44:27|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = '8:974c33d2fb399ef6477c3897450fb078' WHERE ID = 'changelog-3.7-notmssql' AND AUTHOR = 'author' AND FILENAME = 'changelog-3.7'
+INFO|1467/0|Service traccar|18-09-24 12:44:27|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = '8:74d68027951f8d2ae6bb2e24df8365bc' WHERE ID = 'changelog-3.8' AND AUTHOR = 'author' AND FILENAME = 'changelog-3.8'
+INFO|1467/0|Service traccar|18-09-24 12:44:27|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = '8:34822842d65deb843a7d16f857d52ecc' WHERE ID = 'changelog-3.9' AND AUTHOR = 'author' AND FILENAME = 'changelog-3.9'
+INFO|1467/0|Service traccar|18-09-24 12:44:27|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = '8:e1ddbe83e1ecf856a912755fc118f82e' WHERE ID = 'changelog-3.10' AND AUTHOR = 'author' AND FILENAME = 'changelog-3.10'
+INFO|1467/0|Service traccar|18-09-24 12:44:27|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = '8:191c21d8f0f921845cf93bbc9d0639b9' WHERE ID = 'changelog-3.10-notmssql' AND AUTHOR = 'author' AND FILENAME = 'changelog-3.10'
+INFO|1467/0|Service traccar|18-09-24 12:44:27|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = '8:ad1f63566e8d08812fbf0b93a118ef6e' WHERE ID = 'changelog-3.10-mssql' AND AUTHOR = 'author' AND FILENAME = 'changelog-3.10'
+INFO|1467/0|Service traccar|18-09-24 12:44:27|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = '8:127b36b9d32a9d236df51d19b18c3766' WHERE ID = 'changelog-3.7-mssql' AND AUTHOR = 'author' AND FILENAME = 'changelog-3.10'
+INFO|1467/0|Service traccar|18-09-24 12:44:27|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = '8:7800f890b9706a480bd5a79b591b6ca7' WHERE ID = 'changelog-3.11' AND AUTHOR = 'author' AND FILENAME = 'changelog-3.11'
+INFO|1467/0|Service traccar|18-09-24 12:44:27|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = '8:5ce520811d626ad325a014b9fcbb1a13' WHERE ID = 'changelog-3.12' AND AUTHOR = 'author' AND FILENAME = 'changelog-3.12'
+INFO|1467/0|Service traccar|18-09-24 12:44:27|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = '8:a3bf7fabcde29e106fe2f89829a76a84' WHERE ID = 'changelog-3.12-notmssql' AND AUTHOR = 'author' AND FILENAME = 'changelog-3.12'
+INFO|1467/0|Service traccar|18-09-24 12:44:27|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = '8:cfc881bd2dadb561aa9c1a467bc8cc1c' WHERE ID = 'changelog-3.12-pgsql' AND AUTHOR = 'author' AND FILENAME = 'changelog-3.12'
+INFO|1467/0|Service traccar|18-09-24 12:44:27|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = '8:1be7e6c0520f8be53ef1b099d96afba5' WHERE ID = 'changelog-3.14' AND AUTHOR = 'author' AND FILENAME = 'changelog-3.14'
+INFO|1467/0|Service traccar|18-09-24 12:44:27|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = '8:ac8ccec176027e98bbf45dc6c15d9b05' WHERE ID = 'changelog-3.15' AND AUTHOR = 'author' AND FILENAME = 'changelog-3.15'
+INFO|1467/0|Service traccar|18-09-24 12:44:27|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = '8:b59407d70bfe9bf57bc9968adfbbdf1c' WHERE ID = 'changelog-3.16' AND AUTHOR = 'author' AND FILENAME = 'changelog-3.16'
+INFO|1467/0|Service traccar|18-09-24 12:44:27|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = '8:3f14c3b08068eb7628d0d3e2941eb2d3' WHERE ID = 'changelog-3.3-admin' AND AUTHOR = 'author' AND FILENAME = 'changelog-3.17'
+INFO|1467/0|Service traccar|18-09-24 12:44:27|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = '8:8aa3e56afe6ba86cd004fa801507bc28' WHERE ID = 'changelog-3.17' AND AUTHOR = 'author' AND FILENAME = 'changelog-3.17'
+INFO|1467/0|Service traccar|18-09-24 12:44:27|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = '8:90aedfa378aa717f8d8ae541f97b87b2' WHERE ID = 'changelog-4.0-renaming' AND AUTHOR = 'author' AND FILENAME = 'changelog-4.0'
+INFO|1467/0|Service traccar|18-09-24 12:44:27|[main] INFO liquibase.executor.jvm.JdbcExecutor - UPDATE PUBLIC.DATABASECHANGELOG SET MD5SUM = '8:fb1e34fca918102d60b8597e461be40c' WHERE ID = 'changelog-4.0' AND AUTHOR = 'author' AND FILENAME = 'changelog-4.0'
+INFO|1467/0|Service traccar|18-09-24 12:44:27|[main] INFO liquibase.executor.jvm.JdbcExecutor - SELECT COUNT(*) FROM PUBLIC.DATABASECHANGELOG
+INFO|1467/0|Service traccar|18-09-24 12:44:27|[main] INFO liquibase.changelog.StandardChangeLogHistoryService - Reading from PUBLIC.DATABASECHANGELOG
+INFO|1467/0|Service traccar|18-09-24 12:44:27|[main] INFO liquibase.executor.jvm.JdbcExecutor - SELECT * FROM PUBLIC.DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC
+INFO|1467/0|Service traccar|18-09-24 12:44:27|[main] INFO liquibase.lockservice.StandardLockService - Successfully released change log lock
+INFO|1467/0|Service traccar|18-09-24 12:44:27|[main] INFO org.eclipse.jetty.util.log - Logging initialized @4857ms
+INFO|1467/0|Service traccar|18-09-24 12:44:28|[main] INFO org.eclipse.jetty.server.Server - jetty-9.2.24.v20180105
+INFO|1467/0|Service traccar|18-09-24 12:44:29|[main] INFO org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@1d6751e3{/api,null,AVAILABLE}
+INFO|1467/0|Service traccar|18-09-24 12:44:29|[main] INFO org.eclipse.jetty.server.handler.ContextHandler - Started o.t.w.@7eeb38b2{/,null,AVAILABLE}
+INFO|1467/0|Service traccar|18-09-24 12:44:29|[main] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@541bf968{HTTP/1.1}{0.0.0.0:8082}
+INFO|1467/0|Service traccar|18-09-24 12:44:29|[main] INFO org.eclipse.jetty.server.Server - Started @6750ms
+INFO|1467/0|Service traccar|18-09-24 13:02:07|[qtp1885927370-38] WARN org.eclipse.jetty.server.handler.ResourceHandler - org.eclipse.jetty.io.EofException
