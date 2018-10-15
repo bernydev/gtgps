@@ -41,13 +41,13 @@ Ext.define('Traccar.view.dialog.Login', {
 
         items: [{
             xtype: 'image',
-            src: 'logo.svg',
+            src: 'geotracking.png',
             alt: Strings.loginLogo,
-            width: 240,
-            height: 64,
+            width: 180,
+            height: 'auto',
             style: {
                 display: 'block',
-                margin: '10px auto 25px'
+                margin: '0px auto 15px'
             }
         }, {
             xtype: 'combobox',

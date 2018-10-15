@@ -11,7 +11,33 @@
 .view-item-disabled {
     opacity: 0.5;
 }
-
+/*img#image-1011 {
+    width: 150px!important;
+    height: auto!important;
+    margin-top: 0px!important;
+    margin-bottom: 10px!important;
+}
+#login-1009 .x-panel-default {
+    border-color: #5fa2dd;
+    padding: 0;
+    width: 275px!important;
+    height: auto!important;
+    display: block!important;
+}*/
+html, body {
+        height: 100%;
+        margin: 0px;
+    }
+.newbackground{
+    background-image: url('geotracking_bg.jpg');
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.x-btn-pressed {
+    background-color: #2a2a2b!important;
+}
 .toolbar-header-style {
     background-color: #5fa2dd !important;
 }
